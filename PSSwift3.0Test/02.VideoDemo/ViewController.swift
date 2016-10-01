@@ -28,7 +28,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "16:使用UIWebView和UIToolbar制作一个浏览器",
                                "17:微调器或叫步进器（UIStepper）的用法",
                                "18:网络请求",
-                               "19:数据解析,JSON转Model"
+                               "19:数据解析,JSON转Model",
+                               "20:SnapKit的使用"
                               ];
     let tableView = UITableView()
     
@@ -144,6 +145,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             let swiftJsonDemo = SwiftJSONDemo()
             self.navigationController?.pushViewController(swiftJsonDemo, animated: true)
         }
+        if indexPath.row == 19 {
+            let snapKitDemo = SnapKitDemo()
+            self.navigationController?.pushViewController(snapKitDemo, animated: true)
+        }
+
     }
 }
 

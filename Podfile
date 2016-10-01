@@ -7,5 +7,10 @@ target 'PSSwift3.0Test' do
 
 pod “SDWebImage”
 pod “SwiftyJSON”
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+pod 'SnapKit', '~> 3.0'
+
 end
 
