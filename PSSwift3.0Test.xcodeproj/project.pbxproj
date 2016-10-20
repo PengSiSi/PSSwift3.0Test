@@ -10,6 +10,7 @@
 		60C78BB051D47FC61CE30C6C /* Pods_PSSwift3_0Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0888817545F8C9AA166153A /* Pods_PSSwift3_0Test.framework */; };
 		F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */; };
 		F10A5A7E1D9B9FBC00EB2021 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */; };
+		F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E789D1DB73D60006F4A6D /* SearchController.swift */; };
 		F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */; };
 		F15B16B71D9DF9600046142B /* SwiftyJSONTests.json in Resources */ = {isa = PBXBuildFile; fileRef = F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */; };
 		F16CE77D1D97815700443625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CE77C1D97815700443625 /* AppDelegate.swift */; };
@@ -48,6 +49,9 @@
 		F198296E1D9A75C6001C87FD /* DelegateDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198296D1D9A75C6001C87FD /* DelegateDemo1.swift */; };
 		F19829711D9A7B78001C87FD /* SingleInstanceDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19829701D9A7B78001C87FD /* SingleInstanceDemo.swift */; };
 		F19829731D9A7BCE001C87FD /* APPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19829721D9A7BCE001C87FD /* APPManager.swift */; };
+		F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22A1DA89CC100309240 /* ModifierViewController.swift */; };
+		F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */; };
+		F1CBE22F1DA8B5F500309240 /* NewPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */; };
 		F1D4237D1D9B4590005AA7CD /* OpenUrlDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4237C1D9B4590005AA7CD /* OpenUrlDemo.swift */; };
 		F1D423801D9B4E64005AA7CD /* SelectCellExpandDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4237F1D9B4E64005AA7CD /* SelectCellExpandDemo.swift */; };
 		F1D423831D9B634D005AA7CD /* GCDDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D423821D9B634D005AA7CD /* GCDDemo.swift */; };
@@ -61,6 +65,8 @@
 		F1DE33111D9DED7900C14754 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE330E1D9DED7900C14754 /* SDWaitingView.m */; };
 		F1DE33701D9DEFC500C14754 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE33631D9DEFBB00C14754 /* Alamofire.framework */; };
 		F1DE33711D9DEFC500C14754 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE33631D9DEFBB00C14754 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1E8C51D1DB8598E00C767F1 /* PasssValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */; };
+		F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51E1DB8599600C767F1 /* SubViewController.swift */; };
 		F1F04FCC1D9CAE2000A5A815 /* NetworkingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */; };
 		F1FEB7901D9F33AC00C7A496 /* SnapKitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB78F1D9F33AC00C7A496 /* SnapKitDemo.swift */; };
 /* End PBXBuildFile section */
@@ -158,6 +164,7 @@
 		E7A198A4D39037795D181A1D /* Pods-PSSwift3.0Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSSwift3.0Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSSwift3.0Test/Pods-PSSwift3.0Test.debug.xcconfig"; sourceTree = "<group>"; };
 		F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStepperDemo.swift; sourceTree = "<group>"; };
 		F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F10E789D1DB73D60006F4A6D /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJSONDemo.swift; sourceTree = "<group>"; };
 		F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SwiftyJSONTests.json; sourceTree = "<group>"; };
 		F16CE7791D97815700443625 /* PSSwift3.0Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSSwift3.0Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,6 +210,8 @@
 		F198296D1D9A75C6001C87FD /* DelegateDemo1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateDemo1.swift; sourceTree = "<group>"; };
 		F19829701D9A7B78001C87FD /* SingleInstanceDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleInstanceDemo.swift; sourceTree = "<group>"; };
 		F19829721D9A7BCE001C87FD /* APPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPManager.swift; sourceTree = "<group>"; };
+		F1CBE22A1DA89CC100309240 /* ModifierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierViewController.swift; sourceTree = "<group>"; };
+		F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPointViewController.swift; sourceTree = "<group>"; };
 		F1D4237C1D9B4590005AA7CD /* OpenUrlDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenUrlDemo.swift; sourceTree = "<group>"; };
 		F1D4237F1D9B4E64005AA7CD /* SelectCellExpandDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCellExpandDemo.swift; sourceTree = "<group>"; };
 		F1D423821D9B634D005AA7CD /* GCDDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDDemo.swift; sourceTree = "<group>"; };
@@ -219,6 +228,8 @@
 		F1DE330D1D9DED7900C14754 /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
 		F1DE330E1D9DED7900C14754 /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
 		F1DE33571D9DEFBB00C14754 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasssValueViewController.swift; sourceTree = "<group>"; };
+		F1E8C51E1DB8599600C767F1 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingDemo.swift; sourceTree = "<group>"; };
 		F1FEB78F1D9F33AC00C7A496 /* SnapKitDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -275,6 +286,14 @@
 			path = "17. 微调器或叫步进器（UIStepper）的用法";
 			sourceTree = "<group>";
 		};
+		F10E78951DB73D43006F4A6D /* 23.带搜索框的UITableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F10E789D1DB73D60006F4A6D /* SearchController.swift */,
+			);
+			path = "23.带搜索框的UITableViewController";
+			sourceTree = "<group>";
+		};
 		F15B16AA1D9DF8420046142B /* 19.数据解析转Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +328,10 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1E8C5141DB8593D00C767F1 /* 24.页面传值 */,
+				F10E78951DB73D43006F4A6D /* 23.带搜索框的UITableViewController */,
+				F1CBE22C1DA8A17500309240 /* 22.Swift3新特性汇总 */,
+				F1CBE2221DA89C8500309240 /* 21.修饰符的学习 */,
 				F1FEB7841D9F335300C7A496 /* 20.SnapKit的使用 */,
 				F15B16AA1D9DF8420046142B /* 19.数据解析转Model */,
 				F1F04FCA1D9CADEF00A5A815 /* 18.网络请求 */,
@@ -497,6 +520,22 @@
 			path = "12.单例的使用";
 			sourceTree = "<group>";
 		};
+		F1CBE2221DA89C8500309240 /* 21.修饰符的学习 */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBE22A1DA89CC100309240 /* ModifierViewController.swift */,
+			);
+			path = "21.修饰符的学习";
+			sourceTree = "<group>";
+		};
+		F1CBE22C1DA8A17500309240 /* 22.Swift3新特性汇总 */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */,
+			);
+			path = "22.Swift3新特性汇总";
+			sourceTree = "<group>";
+		};
 		F1D4237B1D9B4577005AA7CD /* 13.通过url地址打开web页面 */ = {
 			isa = PBXGroup;
 			children = (
@@ -559,6 +598,15 @@
 				F1DE336F1D9DEFBB00C14754 /* Alamofire.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F1E8C5141DB8593D00C767F1 /* 24.页面传值 */ = {
+			isa = PBXGroup;
+			children = (
+				F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */,
+				F1E8C51E1DB8599600C767F1 /* SubViewController.swift */,
+			);
+			path = "24.页面传值";
 			sourceTree = "<group>";
 		};
 		F1F04FCA1D9CADEF00A5A815 /* 18.网络请求 */ = {
@@ -856,17 +904,22 @@
 				F1D423801D9B4E64005AA7CD /* SelectCellExpandDemo.swift in Sources */,
 				F1720B771D99183400C62F50 /* TableViewPullDemo.swift in Sources */,
 				F19829111D9A096B001C87FD /* CustomLayout.swift in Sources */,
+				F1E8C51D1DB8598E00C767F1 /* PasssValueViewController.swift in Sources */,
 				F16CE77D1D97815700443625 /* AppDelegate.swift in Sources */,
+				F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */,
+				F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */,
 				F16CE7D31D97DABE00443625 /* ViewController.swift in Sources */,
 				F1DE33101D9DED7900C14754 /* SDPhotoBrowser.m in Sources */,
 				F16CE7D11D97DABE00443625 /* VideoModel.swift in Sources */,
 				F198290F1D9A0898001C87FD /* CustomLayoutVc.swift in Sources */,
 				F16CE7D41D97DABE00443625 /* ScrollViewDemo.swift in Sources */,
+				F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */,
 				F1D423861D9B78B3005AA7CD /* UIWebViewDemo.swift in Sources */,
 				F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */,
 				F1DE33111D9DED7900C14754 /* SDWaitingView.m in Sources */,
 				F1D4237D1D9B4590005AA7CD /* OpenUrlDemo.swift in Sources */,
 				F19829131D9A1059001C87FD /* UICollectionGridViewController.swift in Sources */,
+				F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */,
 				F16CE7D51D97DABE00443625 /* ScrollViewDemo1.swift in Sources */,
 				F1720B7A1D99293500C62F50 /* CollectionViewDemo.swift in Sources */,
 				F1F04FCC1D9CAE2000A5A815 /* NetworkingDemo.swift in Sources */,
@@ -884,6 +937,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CBE22F1DA8B5F500309240 /* NewPointViewController.swift in Sources */,
 				F16CE7921D97815800443625 /* PSSwift3_0TestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

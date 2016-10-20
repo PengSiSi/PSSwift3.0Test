@@ -29,7 +29,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "17:微调器或叫步进器（UIStepper）的用法",
                                "18:网络请求",
                                "19:数据解析,JSON转Model",
-                               "20:SnapKit的使用"
+                               "20:SnapKit的使用",
+                               "21:Swift修饰符的使用",
+                               "22:Swift3新特性汇总",
+                               "23:带搜索框的UITableViewController",
+                               "24:页面传值"
                               ];
     let tableView = UITableView()
     
@@ -149,7 +153,22 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             let snapKitDemo = SnapKitDemo()
             self.navigationController?.pushViewController(snapKitDemo, animated: true)
         }
-
+        if indexPath.row == 20 {
+            let modifyDemo = ModifierViewController()
+            self.navigationController?.pushViewController(modifyDemo, animated: true)
+        }
+        if indexPath.row == 21 {
+            let newDemo = NewPointViewController()
+            self.navigationController?.pushViewController(newDemo, animated: true)
+        }
+        if indexPath.row == 22 {
+            let searchDemo = SearchController()
+            self.navigationController?.pushViewController(searchDemo, animated: true)
+        }
+        if indexPath.row == 23 {
+            let passValueDemo = PasssValueViewController()
+            self.navigationController?.pushViewController(passValueDemo, animated: true)
+        }
     }
 }
 
