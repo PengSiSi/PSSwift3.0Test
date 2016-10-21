@@ -33,7 +33,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "21:Swift修饰符的使用",
                                "22:Swift3新特性汇总",
                                "23:带搜索框的UITableViewController",
-                               "24:页面传值"
+                               "24:页面传值",
+                               "25:Swift结构体指针操作"
                               ];
     let tableView = UITableView()
     
@@ -169,6 +170,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             let passValueDemo = PasssValueViewController()
             self.navigationController?.pushViewController(passValueDemo, animated: true)
         }
+        if indexPath.row == 24 {
+            let structDemo  = StructViewController()
+            self.navigationController?.pushViewController(structDemo, animated: true)
+        }
+
     }
 }
 

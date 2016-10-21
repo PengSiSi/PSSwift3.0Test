@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		60C78BB051D47FC61CE30C6C /* Pods_PSSwift3_0Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0888817545F8C9AA166153A /* Pods_PSSwift3_0Test.framework */; };
+		F105C4A51DB9E647000998B6 /* StructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105C4A41DB9E647000998B6 /* StructViewController.swift */; };
 		F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */; };
 		F10A5A7E1D9B9FBC00EB2021 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */; };
 		F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E789D1DB73D60006F4A6D /* SearchController.swift */; };
@@ -162,6 +163,7 @@
 		B0888817545F8C9AA166153A /* Pods_PSSwift3_0Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSSwift3_0Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A4A73C6966C4CB1958A91A /* Pods-PSSwift3.0Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSSwift3.0Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSSwift3.0Test/Pods-PSSwift3.0Test.release.xcconfig"; sourceTree = "<group>"; };
 		E7A198A4D39037795D181A1D /* Pods-PSSwift3.0Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSSwift3.0Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSSwift3.0Test/Pods-PSSwift3.0Test.debug.xcconfig"; sourceTree = "<group>"; };
+		F105C4A41DB9E647000998B6 /* StructViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructViewController.swift; sourceTree = "<group>"; };
 		F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStepperDemo.swift; sourceTree = "<group>"; };
 		F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		F10E789D1DB73D60006F4A6D /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
@@ -278,6 +280,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F105C4991DB9E5DA000998B6 /* 25.Swift结构体指针操作 */ = {
+			isa = PBXGroup;
+			children = (
+				F105C4A41DB9E647000998B6 /* StructViewController.swift */,
+			);
+			path = "25.Swift结构体指针操作";
+			sourceTree = "<group>";
+		};
 		F10A5A7A1D9B9F9A00EB2021 /* 17. 微调器或叫步进器（UIStepper）的用法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +338,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F105C4991DB9E5DA000998B6 /* 25.Swift结构体指针操作 */,
 				F1E8C5141DB8593D00C767F1 /* 24.页面传值 */,
 				F10E78951DB73D43006F4A6D /* 23.带搜索框的UITableViewController */,
 				F1CBE22C1DA8A17500309240 /* 22.Swift3新特性汇总 */,
@@ -914,6 +925,7 @@
 				F198290F1D9A0898001C87FD /* CustomLayoutVc.swift in Sources */,
 				F16CE7D41D97DABE00443625 /* ScrollViewDemo.swift in Sources */,
 				F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */,
+				F105C4A51DB9E647000998B6 /* StructViewController.swift in Sources */,
 				F1D423861D9B78B3005AA7CD /* UIWebViewDemo.swift in Sources */,
 				F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */,
 				F1DE33111D9DED7900C14754 /* SDWaitingView.m in Sources */,
