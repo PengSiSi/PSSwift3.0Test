@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-PSSwift3.0Test.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3C8D691CB711FF7348FFF310D533754D</key>
+		<key>0EB0652B39E46B6775BCC9B8BCFEF7D7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C1E9AF4C3FEF1256C573C3BFFC37FD56</key>
+		<key>29DD99664D189A7CA206368F493B1E0B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F8BAECFBE79DDC7148AD9B2BB7ACD8EC</key>
+		<key>62BED483ABF1A14747A1DADAF8671824</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FBE0EB11DA8127AF1620462815B582C7</key>
+		<key>A023B3E402D66192EE699BD433D755DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A784A382C3239D2AA9DB35CC38A4ECAD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

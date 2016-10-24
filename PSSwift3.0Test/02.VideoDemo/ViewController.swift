@@ -34,7 +34,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "22:Swift3新特性汇总",
                                "23:带搜索框的UITableViewController",
                                "24:页面传值",
-                               "25:Swift结构体指针操作"
+                               "25:Swift结构体指针操作",
+                               "26:MJRefresh的使用"
                               ];
     let tableView = UITableView()
     
@@ -174,7 +175,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             let structDemo  = StructViewController()
             self.navigationController?.pushViewController(structDemo, animated: true)
         }
-
+        if indexPath.row == 25 {
+            let mjrefreshDemo  = MJRefreshDemo()
+            self.navigationController?.pushViewController(mjrefreshDemo, animated: true)
+        }
     }
 }
 
