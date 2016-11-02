@@ -35,7 +35,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "23:带搜索框的UITableViewController",
                                "24:页面传值",
                                "25:Swift结构体指针操作",
-                               "26:MJRefresh的使用"
+                               "26:MJRefresh的使用",
+                               "27:扩展UIColor，增加随机颜色属性",
+                               "28:UIWebView实现下拉刷新"
                               ];
     let tableView = UITableView()
     
@@ -178,6 +180,14 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 25 {
             let mjrefreshDemo  = MJRefreshDemo()
             self.navigationController?.pushViewController(mjrefreshDemo, animated: true)
+        }
+        if indexPath.row == 26 {
+            let colorDemo  = ColorViewController()
+            self.navigationController?.pushViewController(colorDemo, animated: true)
+        }
+        if indexPath.row == 27 {
+            let webViewDemo  = WebViewController()
+            self.navigationController?.pushViewController(webViewDemo, animated: true)
         }
     }
 }

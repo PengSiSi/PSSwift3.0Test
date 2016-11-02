@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Alamofire
+//import Alamofire
 
 class NetworkingDemo: BaseViewController {
 
@@ -23,15 +23,15 @@ class NetworkingDemo: BaseViewController {
 //            print("response = \(response)")
 //        }
         
-        Alamofire.request("http://m.htxq.net/servlet/UserBbsServlet", parameters: ["action": "TopBbsAuthor"])
-            .responseJSON { response in
-                print(response.request)  // original URL request
-                print(response.response) // URL response
-                print(response.data)     // server data
-                print(response.result)   // result of response serialization
-                if let JSON = response.result.value {
-                    print("JSON: \(JSON)") //具体如何解析json内容可看下方“响应处理”部分
-                }
-        }
+//        Alamofire.request("http://m.htxq.net/servlet/UserBbsServlet", parameters: ["action": "TopBbsAuthor"])
+//            .responseJSON { response in
+//                print(response.request)  // original URL request
+//                print(response.response) // URL response
+//                print(response.data)     // server data
+//                print(response.result)   // result of response serialization
+//                if let JSON = response.result.value {
+//                    print("JSON: \(JSON)") //具体如何解析json内容可看下方“响应处理”部分
+//                }
+//        }
     }
 }

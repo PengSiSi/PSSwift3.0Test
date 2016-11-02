@@ -13,6 +13,8 @@
 		F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */; };
 		F10A5A7E1D9B9FBC00EB2021 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */; };
 		F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E789D1DB73D60006F4A6D /* SearchController.swift */; };
+		F112678B1DC979F500955BCC /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112678A1DC979F500955BCC /* ColorViewController.swift */; };
+		F112678E1DC97EB200955BCC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112678D1DC97EB200955BCC /* WebViewController.swift */; };
 		F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */; };
 		F15B16B71D9DF9600046142B /* SwiftyJSONTests.json in Resources */ = {isa = PBXBuildFile; fileRef = F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */; };
 		F16CE77D1D97815700443625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CE77C1D97815700443625 /* AppDelegate.swift */; };
@@ -65,8 +67,6 @@
 		F1DE330F1D9DED7900C14754 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE33091D9DED7900C14754 /* SDBrowserImageView.m */; };
 		F1DE33101D9DED7900C14754 /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE330B1D9DED7900C14754 /* SDPhotoBrowser.m */; };
 		F1DE33111D9DED7900C14754 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE330E1D9DED7900C14754 /* SDWaitingView.m */; };
-		F1DE33701D9DEFC500C14754 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE33631D9DEFBB00C14754 /* Alamofire.framework */; };
-		F1DE33711D9DEFC500C14754 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1DE33631D9DEFBB00C14754 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F1E8C51D1DB8598E00C767F1 /* PasssValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */; };
 		F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51E1DB8599600C767F1 /* SubViewController.swift */; };
 		F1F04FCC1D9CAE2000A5A815 /* NetworkingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */; };
@@ -153,7 +153,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F1DE33711D9DEFC500C14754 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +168,8 @@
 		F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStepperDemo.swift; sourceTree = "<group>"; };
 		F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		F10E789D1DB73D60006F4A6D /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		F112678A1DC979F500955BCC /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		F112678D1DC97EB200955BCC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJSONDemo.swift; sourceTree = "<group>"; };
 		F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SwiftyJSONTests.json; sourceTree = "<group>"; };
 		F16CE7791D97815700443625 /* PSSwift3.0Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSSwift3.0Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -244,7 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C78BB051D47FC61CE30C6C /* Pods_PSSwift3_0Test.framework in Frameworks */,
-				F1DE33701D9DEFC500C14754 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +314,22 @@
 			path = "23.带搜索框的UITableViewController";
 			sourceTree = "<group>";
 		};
+		F11267891DC979C000955BCC /* 27.扩展UIColor，增加随机颜色属性 */ = {
+			isa = PBXGroup;
+			children = (
+				F112678A1DC979F500955BCC /* ColorViewController.swift */,
+			);
+			path = "27.扩展UIColor，增加随机颜色属性";
+			sourceTree = "<group>";
+		};
+		F112678C1DC97E8500955BCC /* 28.UIWebView实现下拉刷新 */ = {
+			isa = PBXGroup;
+			children = (
+				F112678D1DC97EB200955BCC /* WebViewController.swift */,
+			);
+			path = "28.UIWebView实现下拉刷新";
+			sourceTree = "<group>";
+		};
 		F15B16AA1D9DF8420046142B /* 19.数据解析转Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -348,6 +364,8 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F112678C1DC97E8500955BCC /* 28.UIWebView实现下拉刷新 */,
+				F11267891DC979C000955BCC /* 27.扩展UIColor，增加随机颜色属性 */,
 				F10723E41DBDF19700D1C357 /* 26.MJRefresh的使用 */,
 				F105C4991DB9E5DA000998B6 /* 25.Swift结构体指针操作 */,
 				F1E8C5141DB8593D00C767F1 /* 24.页面传值 */,
@@ -939,6 +957,7 @@
 				F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */,
 				F105C4A51DB9E647000998B6 /* StructViewController.swift in Sources */,
 				F1D423861D9B78B3005AA7CD /* UIWebViewDemo.swift in Sources */,
+				F112678E1DC97EB200955BCC /* WebViewController.swift in Sources */,
 				F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */,
 				F1DE33111D9DED7900C14754 /* SDWaitingView.m in Sources */,
 				F1D4237D1D9B4590005AA7CD /* OpenUrlDemo.swift in Sources */,
@@ -953,6 +972,7 @@
 				F1720B5E1D98FE1700C62F50 /* RowHeightCell.swift in Sources */,
 				F19829711D9A7B78001C87FD /* SingleInstanceDemo.swift in Sources */,
 				F198296E1D9A75C6001C87FD /* DelegateDemo1.swift in Sources */,
+				F112678B1DC979F500955BCC /* ColorViewController.swift in Sources */,
 				F198291B1D9A4A28001C87FD /* BUttonChangeTitleDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
