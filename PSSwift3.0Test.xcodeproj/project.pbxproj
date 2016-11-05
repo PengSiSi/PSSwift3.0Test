@@ -70,6 +70,8 @@
 		F1E8C51D1DB8598E00C767F1 /* PasssValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */; };
 		F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51E1DB8599600C767F1 /* SubViewController.swift */; };
 		F1F04FCC1D9CAE2000A5A815 /* NetworkingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */; };
+		F1FD10501DCD95F500A42042 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FD104F1DCD95F500A42042 /* TimeLineViewController.swift */; };
+		F1FD10521DCDCCA100A42042 /* TimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FD10511DCDCCA100A42042 /* TimeLineCell.swift */; };
 		F1FEB7901D9F33AC00C7A496 /* SnapKitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB78F1D9F33AC00C7A496 /* SnapKitDemo.swift */; };
 /* End PBXBuildFile section */
 
@@ -236,6 +238,8 @@
 		F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasssValueViewController.swift; sourceTree = "<group>"; };
 		F1E8C51E1DB8599600C767F1 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingDemo.swift; sourceTree = "<group>"; };
+		F1FD104F1DCD95F500A42042 /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		F1FD10511DCDCCA100A42042 /* TimeLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineCell.swift; sourceTree = "<group>"; };
 		F1FEB78F1D9F33AC00C7A496 /* SnapKitDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -364,6 +368,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1FD104E1DCD95DE00A42042 /* 29.时间轴效果的实现 */,
 				F112678C1DC97E8500955BCC /* 28.UIWebView实现下拉刷新 */,
 				F11267891DC979C000955BCC /* 27.扩展UIColor，增加随机颜色属性 */,
 				F10723E41DBDF19700D1C357 /* 26.MJRefresh的使用 */,
@@ -658,6 +663,15 @@
 			path = "18.网络请求";
 			sourceTree = "<group>";
 		};
+		F1FD104E1DCD95DE00A42042 /* 29.时间轴效果的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				F1FD104F1DCD95F500A42042 /* TimeLineViewController.swift */,
+				F1FD10511DCDCCA100A42042 /* TimeLineCell.swift */,
+			);
+			path = "29.时间轴效果的实现";
+			sourceTree = "<group>";
+		};
 		F1FEB7841D9F335300C7A496 /* 20.SnapKit的使用 */ = {
 			isa = PBXGroup;
 			children = (
@@ -934,6 +948,7 @@
 				F19829161D9A3B0C001C87FD /* UIBlurEffectDemo.swift in Sources */,
 				F1720B5B1D98FD7D00C62F50 /* TbaleViewRowHeight.swift in Sources */,
 				F198296C1D9A7542001C87FD /* DelegateDemo.swift in Sources */,
+				F1FD10501DCD95F500A42042 /* TimeLineViewController.swift in Sources */,
 				F198291E1D9A4FBB001C87FD /* ScannerDemo.swift in Sources */,
 				F16CE7CE1D97DABE00443625 /* TableViewDemo.swift in Sources */,
 				F1FEB7901D9F33AC00C7A496 /* SnapKitDemo.swift in Sources */,
@@ -948,6 +963,7 @@
 				F1E8C51D1DB8598E00C767F1 /* PasssValueViewController.swift in Sources */,
 				F16CE77D1D97815700443625 /* AppDelegate.swift in Sources */,
 				F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */,
+				F1FD10521DCDCCA100A42042 /* TimeLineCell.swift in Sources */,
 				F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */,
 				F16CE7D31D97DABE00443625 /* ViewController.swift in Sources */,
 				F1DE33101D9DED7900C14754 /* SDPhotoBrowser.m in Sources */,

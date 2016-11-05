@@ -37,7 +37,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "25:Swift结构体指针操作",
                                "26:MJRefresh的使用",
                                "27:扩展UIColor，增加随机颜色属性",
-                               "28:UIWebView实现下拉刷新"
+                               "28:UIWebView实现下拉刷新",
+                               "29:时间轴效果的实现"
                               ];
     let tableView = UITableView()
     
@@ -189,6 +190,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             let webViewDemo  = WebViewController()
             self.navigationController?.pushViewController(webViewDemo, animated: true)
         }
+        if indexPath.row == 28 {
+            let TimeLineDemo  = TimeLineViewController()
+            self.navigationController?.pushViewController(TimeLineDemo, animated: true)
+        }
+
     }
 }
 
