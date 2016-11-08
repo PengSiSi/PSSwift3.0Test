@@ -17,6 +17,7 @@
 		F112678E1DC97EB200955BCC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112678D1DC97EB200955BCC /* WebViewController.swift */; };
 		F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */; };
 		F15B16B71D9DF9600046142B /* SwiftyJSONTests.json in Resources */ = {isa = PBXBuildFile; fileRef = F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */; };
+		F1673BDC1DD0815A001E509B /* ImageBlureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1673BDB1DD0815A001E509B /* ImageBlureViewController.swift */; };
 		F16CE77D1D97815700443625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CE77C1D97815700443625 /* AppDelegate.swift */; };
 		F16CE7821D97815700443625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16CE7801D97815700443625 /* Main.storyboard */; };
 		F16CE7841D97815700443625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16CE7831D97815700443625 /* Assets.xcassets */; };
@@ -174,6 +175,7 @@
 		F112678D1DC97EB200955BCC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJSONDemo.swift; sourceTree = "<group>"; };
 		F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SwiftyJSONTests.json; sourceTree = "<group>"; };
+		F1673BDB1DD0815A001E509B /* ImageBlureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBlureViewController.swift; sourceTree = "<group>"; };
 		F16CE7791D97815700443625 /* PSSwift3.0Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSSwift3.0Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16CE77C1D97815700443625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F16CE7811D97815700443625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -343,6 +345,14 @@
 			path = "19.数据解析转Model";
 			sourceTree = "<group>";
 		};
+		F1673BDA1DD0813E001E509B /* 30.实现图片的模糊效果（高斯模糊滤镜） */ = {
+			isa = PBXGroup;
+			children = (
+				F1673BDB1DD0815A001E509B /* ImageBlureViewController.swift */,
+			);
+			path = "30.实现图片的模糊效果（高斯模糊滤镜）";
+			sourceTree = "<group>";
+		};
 		F16CE7701D97815700443625 = {
 			isa = PBXGroup;
 			children = (
@@ -368,6 +378,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1673BDA1DD0813E001E509B /* 30.实现图片的模糊效果（高斯模糊滤镜） */,
 				F1FD104E1DCD95DE00A42042 /* 29.时间轴效果的实现 */,
 				F112678C1DC97E8500955BCC /* 28.UIWebView实现下拉刷新 */,
 				F11267891DC979C000955BCC /* 27.扩展UIColor，增加随机颜色属性 */,
@@ -964,6 +975,7 @@
 				F16CE77D1D97815700443625 /* AppDelegate.swift in Sources */,
 				F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */,
 				F1FD10521DCDCCA100A42042 /* TimeLineCell.swift in Sources */,
+				F1673BDC1DD0815A001E509B /* ImageBlureViewController.swift in Sources */,
 				F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */,
 				F16CE7D31D97DABE00443625 /* ViewController.swift in Sources */,
 				F1DE33101D9DED7900C14754 /* SDPhotoBrowser.m in Sources */,

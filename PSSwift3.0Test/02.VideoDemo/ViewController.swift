@@ -38,7 +38,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "26:MJRefresh的使用",
                                "27:扩展UIColor，增加随机颜色属性",
                                "28:UIWebView实现下拉刷新",
-                               "29:时间轴效果的实现"
+                               "29:时间轴效果的实现",
+                               "30:实现图片的模糊效果(高斯模糊滤镜)"
                               ];
     let tableView = UITableView()
     
@@ -194,7 +195,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             let TimeLineDemo  = TimeLineViewController()
             self.navigationController?.pushViewController(TimeLineDemo, animated: true)
         }
-
+        if indexPath.row == 29 {
+            let imageBlureDemo  = ImageBlureViewController()
+            self.navigationController?.pushViewController(imageBlureDemo, animated: true)
+        }
     }
 }
 
