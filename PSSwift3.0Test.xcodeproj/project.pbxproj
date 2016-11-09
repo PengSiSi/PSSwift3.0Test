@@ -15,6 +15,9 @@
 		F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E789D1DB73D60006F4A6D /* SearchController.swift */; };
 		F112678B1DC979F500955BCC /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112678A1DC979F500955BCC /* ColorViewController.swift */; };
 		F112678E1DC97EB200955BCC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112678D1DC97EB200955BCC /* WebViewController.swift */; };
+		F12630091DD3002B00723309 /* PSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; };
+		F126300A1DD3002B00723309 /* PSSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F12630131DD300FC00723309 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12630121DD300FC00723309 /* ImageProcessor.swift */; };
 		F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */; };
 		F15B16B71D9DF9600046142B /* SwiftyJSONTests.json in Resources */ = {isa = PBXBuildFile; fileRef = F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */; };
 		F1673BDC1DD0815A001E509B /* ImageBlureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1673BDB1DD0815A001E509B /* ImageBlureViewController.swift */; };
@@ -71,6 +74,9 @@
 		F1E8C51D1DB8598E00C767F1 /* PasssValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */; };
 		F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51E1DB8599600C767F1 /* SubViewController.swift */; };
 		F1F04FCC1D9CAE2000A5A815 /* NetworkingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */; };
+		F1FC2F381DD2F8640093ABF7 /* FrameworkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC2F371DD2F8640093ABF7 /* FrameworkDemo.swift */; };
+		F1FC2F601DD2FAF70093ABF7 /* PSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F5F1DD2FAF70093ABF7 /* PSSdk.framework */; };
+		F1FC2F641DD300130093ABF7 /* PSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; };
 		F1FD10501DCD95F500A42042 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FD104F1DCD95F500A42042 /* TimeLineViewController.swift */; };
 		F1FD10521DCDCCA100A42042 /* TimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FD10511DCDCCA100A42042 /* TimeLineCell.swift */; };
 		F1FEB7901D9F33AC00C7A496 /* SnapKitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB78F1D9F33AC00C7A496 /* SnapKitDemo.swift */; };
@@ -156,6 +162,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F126300A1DD3002B00723309 /* PSSdk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +180,7 @@
 		F10E789D1DB73D60006F4A6D /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		F112678A1DC979F500955BCC /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		F112678D1DC97EB200955BCC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F12630121DD300FC00723309 /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 		F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJSONDemo.swift; sourceTree = "<group>"; };
 		F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SwiftyJSONTests.json; sourceTree = "<group>"; };
 		F1673BDB1DD0815A001E509B /* ImageBlureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBlureViewController.swift; sourceTree = "<group>"; };
@@ -240,6 +248,9 @@
 		F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasssValueViewController.swift; sourceTree = "<group>"; };
 		F1E8C51E1DB8599600C767F1 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingDemo.swift; sourceTree = "<group>"; };
+		F1FC2F371DD2F8640093ABF7 /* FrameworkDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkDemo.swift; sourceTree = "<group>"; };
+		F1FC2F5F1DD2FAF70093ABF7 /* PSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSSdk.framework; path = "/Users/sipeng/Desktop/学习/9月学习/Swift/PSSwift3.0Test/PSSwift3.0Test/31.Framework的制作与使用/PSSdk.framework"; sourceTree = "<absolute>"; };
+		F1FC2F631DD300130093ABF7 /* PSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PSSdk.framework; sourceTree = "<group>"; };
 		F1FD104F1DCD95F500A42042 /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 		F1FD10511DCDCCA100A42042 /* TimeLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineCell.swift; sourceTree = "<group>"; };
 		F1FEB78F1D9F33AC00C7A496 /* SnapKitDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitDemo.swift; sourceTree = "<group>"; };
@@ -250,6 +261,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12630091DD3002B00723309 /* PSSdk.framework in Frameworks */,
+				F1FC2F601DD2FAF70093ABF7 /* PSSdk.framework in Frameworks */,
+				F1FC2F641DD300130093ABF7 /* PSSdk.framework in Frameworks */,
 				60C78BB051D47FC61CE30C6C /* Pods_PSSwift3_0Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +392,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1FC2F361DD2F8430093ABF7 /* 31.Framework的制作与使用 */,
 				F1673BDA1DD0813E001E509B /* 30.实现图片的模糊效果（高斯模糊滤镜） */,
 				F1FD104E1DCD95DE00A42042 /* 29.时间轴效果的实现 */,
 				F112678C1DC97E8500955BCC /* 28.UIWebView实现下拉刷新 */,
@@ -674,6 +689,16 @@
 			path = "18.网络请求";
 			sourceTree = "<group>";
 		};
+		F1FC2F361DD2F8430093ABF7 /* 31.Framework的制作与使用 */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC2F631DD300130093ABF7 /* PSSdk.framework */,
+				F1FC2F371DD2F8640093ABF7 /* FrameworkDemo.swift */,
+				F12630121DD300FC00723309 /* ImageProcessor.swift */,
+			);
+			path = "31.Framework的制作与使用";
+			sourceTree = "<group>";
+		};
 		F1FD104E1DCD95DE00A42042 /* 29.时间轴效果的实现 */ = {
 			isa = PBXGroup;
 			children = (
@@ -956,6 +981,7 @@
 			files = (
 				F16CE7D21D97DABE00443625 /* VideoPLayDemo.swift in Sources */,
 				F10A5A7E1D9B9FBC00EB2021 /* BaseViewController.swift in Sources */,
+				F12630131DD300FC00723309 /* ImageProcessor.swift in Sources */,
 				F19829161D9A3B0C001C87FD /* UIBlurEffectDemo.swift in Sources */,
 				F1720B5B1D98FD7D00C62F50 /* TbaleViewRowHeight.swift in Sources */,
 				F198296C1D9A7542001C87FD /* DelegateDemo.swift in Sources */,
@@ -967,6 +993,7 @@
 				F1DE330F1D9DED7900C14754 /* SDBrowserImageView.m in Sources */,
 				F16CE7CF1D97DABE00443625 /* VideoCell.swift in Sources */,
 				F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */,
+				F1FC2F381DD2F8640093ABF7 /* FrameworkDemo.swift in Sources */,
 				F1D423801D9B4E64005AA7CD /* SelectCellExpandDemo.swift in Sources */,
 				F1720B771D99183400C62F50 /* TableViewPullDemo.swift in Sources */,
 				F19829111D9A096B001C87FD /* CustomLayout.swift in Sources */,
@@ -1160,6 +1187,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5ALN272SKE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PSSwift3.0Test/31.Framework的制作与使用",
+				);
 				INFOPLIST_FILE = PSSwift3.0Test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1177,6 +1208,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5ALN272SKE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PSSwift3.0Test/31.Framework的制作与使用",
+				);
 				INFOPLIST_FILE = PSSwift3.0Test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

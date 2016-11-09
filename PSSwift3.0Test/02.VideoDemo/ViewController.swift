@@ -39,7 +39,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "27:扩展UIColor，增加随机颜色属性",
                                "28:UIWebView实现下拉刷新",
                                "29:时间轴效果的实现",
-                               "30:实现图片的模糊效果(高斯模糊滤镜)"
+                               "30:实现图片的模糊效果(高斯模糊滤镜)",
+                               "31:FrameWork的制作与使用"
                               ];
     let tableView = UITableView()
     
@@ -198,6 +199,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 29 {
             let imageBlureDemo  = ImageBlureViewController()
             self.navigationController?.pushViewController(imageBlureDemo, animated: true)
+        }
+        if indexPath.row == 30 {
+            let frameWorkDemo  = FrameworkDemo ()
+            self.navigationController?.pushViewController(frameWorkDemo, animated: true)
         }
     }
 }

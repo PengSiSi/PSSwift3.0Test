@@ -1,0 +1,10 @@
+framework module PSSdk {
+  umbrella header "PSSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module PSSdk.Swift {
+    header "PSSdk-Swift.h"
+}
