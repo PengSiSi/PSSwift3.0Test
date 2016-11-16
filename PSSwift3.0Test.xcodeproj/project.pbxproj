@@ -18,6 +18,8 @@
 		F12630091DD3002B00723309 /* PSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; };
 		F126300A1DD3002B00723309 /* PSSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F12630131DD300FC00723309 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12630121DD300FC00723309 /* ImageProcessor.swift */; };
+		F1529CB01DDC500C00912F49 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CAF1DDC500C00912F49 /* DrawViewController.swift */; };
+		F1529CB21DDC517100912F49 /* PSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CB11DDC517100912F49 /* PSView.swift */; };
 		F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */; };
 		F15B16B71D9DF9600046142B /* SwiftyJSONTests.json in Resources */ = {isa = PBXBuildFile; fileRef = F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */; };
 		F1673BDC1DD0815A001E509B /* ImageBlureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1673BDB1DD0815A001E509B /* ImageBlureViewController.swift */; };
@@ -181,6 +183,8 @@
 		F112678A1DC979F500955BCC /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		F112678D1DC97EB200955BCC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F12630121DD300FC00723309 /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		F1529CAF1DDC500C00912F49 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		F1529CB11DDC517100912F49 /* PSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSView.swift; sourceTree = "<group>"; };
 		F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJSONDemo.swift; sourceTree = "<group>"; };
 		F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SwiftyJSONTests.json; sourceTree = "<group>"; };
 		F1673BDB1DD0815A001E509B /* ImageBlureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBlureViewController.swift; sourceTree = "<group>"; };
@@ -350,6 +354,15 @@
 			path = "28.UIWebView实现下拉刷新";
 			sourceTree = "<group>";
 		};
+		F1529CAE1DDC4FF900912F49 /* 32.继承UIView，重写drawRect */ = {
+			isa = PBXGroup;
+			children = (
+				F1529CAF1DDC500C00912F49 /* DrawViewController.swift */,
+				F1529CB11DDC517100912F49 /* PSView.swift */,
+			);
+			path = "32.继承UIView，重写drawRect";
+			sourceTree = "<group>";
+		};
 		F15B16AA1D9DF8420046142B /* 19.数据解析转Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +405,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1529CAE1DDC4FF900912F49 /* 32.继承UIView，重写drawRect */,
 				F1FC2F361DD2F8430093ABF7 /* 31.Framework的制作与使用 */,
 				F1673BDA1DD0813E001E509B /* 30.实现图片的模糊效果（高斯模糊滤镜） */,
 				F1FD104E1DCD95DE00A42042 /* 29.时间轴效果的实现 */,
@@ -1000,6 +1014,7 @@
 				F10723E91DBDF1E800D1C357 /* MJRefreshDemo.swift in Sources */,
 				F1E8C51D1DB8598E00C767F1 /* PasssValueViewController.swift in Sources */,
 				F16CE77D1D97815700443625 /* AppDelegate.swift in Sources */,
+				F1529CB01DDC500C00912F49 /* DrawViewController.swift in Sources */,
 				F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */,
 				F1FD10521DCDCCA100A42042 /* TimeLineCell.swift in Sources */,
 				F1673BDC1DD0815A001E509B /* ImageBlureViewController.swift in Sources */,
@@ -1019,6 +1034,7 @@
 				F19829131D9A1059001C87FD /* UICollectionGridViewController.swift in Sources */,
 				F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */,
 				F16CE7D51D97DABE00443625 /* ScrollViewDemo1.swift in Sources */,
+				F1529CB21DDC517100912F49 /* PSView.swift in Sources */,
 				F1720B7A1D99293500C62F50 /* CollectionViewDemo.swift in Sources */,
 				F1F04FCC1D9CAE2000A5A815 /* NetworkingDemo.swift in Sources */,
 				F1D423831D9B634D005AA7CD /* GCDDemo.swift in Sources */,

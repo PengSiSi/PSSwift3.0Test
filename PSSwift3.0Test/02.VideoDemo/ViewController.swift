@@ -40,7 +40,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "28:UIWebView实现下拉刷新",
                                "29:时间轴效果的实现",
                                "30:实现图片的模糊效果(高斯模糊滤镜)",
-                               "31:FrameWork的制作与使用"
+                               "31:FrameWork的制作与使用",
+                               "32:继承UIView，重写DrawRect"
                               ];
     let tableView = UITableView()
     
@@ -203,6 +204,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 30 {
             let frameWorkDemo  = FrameworkDemo ()
             self.navigationController?.pushViewController(frameWorkDemo, animated: true)
+        }
+        if indexPath.row == 31 {
+            let drawDemo  = DrawViewController ()
+            self.navigationController?.pushViewController(drawDemo, animated: true)
         }
     }
 }
