@@ -41,7 +41,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "29:时间轴效果的实现",
                                "30:实现图片的模糊效果(高斯模糊滤镜)",
                                "31:FrameWork的制作与使用",
-                               "32:继承UIView，重写DrawRect"
+                               "32:继承UIView，重写DrawRect",
+                               "33:CoreGraphicsFramework学习"
                               ];
     let tableView = UITableView()
     
@@ -208,6 +209,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 31 {
             let drawDemo  = DrawViewController ()
             self.navigationController?.pushViewController(drawDemo, animated: true)
+        }
+        if indexPath.row == 32 {
+            let coreGraphicsDemo  = CoreGraphicsViewController ()
+            self.navigationController?.pushViewController(coreGraphicsDemo, animated: true)
         }
     }
 }
