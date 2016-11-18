@@ -12,6 +12,16 @@
 		F10723E91DBDF1E800D1C357 /* MJRefreshDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10723E81DBDF1E800D1C357 /* MJRefreshDemo.swift */; };
 		F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */; };
 		F10A5A7E1D9B9FBC00EB2021 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */; };
+		F10D95EF1DDE9CC400DE6218 /* CirculeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D95E91DDE9CC400DE6218 /* CirculeView.swift */; };
+		F10D95F01DDE9CC400DE6218 /* CoreGraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D95EA1DDE9CC400DE6218 /* CoreGraphicsViewController.swift */; };
+		F10D95F11DDE9CC400DE6218 /* DottedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D95EB1DDE9CC400DE6218 /* DottedView.swift */; };
+		F10D95F21DDE9CC400DE6218 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D95EC1DDE9CC400DE6218 /* LineView.swift */; };
+		F10D95F31DDE9CC400DE6218 /* ThreeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D95ED1DDE9CC400DE6218 /* ThreeLineView.swift */; };
+		F10D95F41DDE9CC400DE6218 /* TwoLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D95EE1DDE9CC400DE6218 /* TwoLineView.swift */; };
+		F10D95FA1DDE9D3700DE6218 /* CoreGraphicsViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D95F91DDE9D3700DE6218 /* CoreGraphicsViewController2.swift */; };
+		F10D95FC1DDE9DC200DE6218 /* RectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D95FB1DDE9DC200DE6218 /* RectView.swift */; };
+		F10D95FE1DDE9F2000DE6218 /* RoundRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D95FD1DDE9F2000DE6218 /* RoundRectView.swift */; };
+		F10D96001DDE9FD500DE6218 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D95FF1DDE9FD500DE6218 /* RoundView.swift */; };
 		F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10E789D1DB73D60006F4A6D /* SearchController.swift */; };
 		F112678B1DC979F500955BCC /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112678A1DC979F500955BCC /* ColorViewController.swift */; };
 		F112678E1DC97EB200955BCC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112678D1DC97EB200955BCC /* WebViewController.swift */; };
@@ -75,12 +85,6 @@
 		F1DE33111D9DED7900C14754 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE330E1D9DED7900C14754 /* SDWaitingView.m */; };
 		F1E8C51D1DB8598E00C767F1 /* PasssValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */; };
 		F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51E1DB8599600C767F1 /* SubViewController.swift */; };
-		F1ECE06E1DDD3C4400E58E41 /* CoreGraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ECE06D1DDD3C4400E58E41 /* CoreGraphicsViewController.swift */; };
-		F1ECE0701DDD3DA300E58E41 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ECE06F1DDD3DA300E58E41 /* LineView.swift */; };
-		F1ECE0721DDD42EE00E58E41 /* DottedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ECE0711DDD42EE00E58E41 /* DottedView.swift */; };
-		F1ECE0741DDD45A200E58E41 /* CirculeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ECE0731DDD45A200E58E41 /* CirculeView.swift */; };
-		F1ECE0761DDD490800E58E41 /* TwoLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ECE0751DDD490800E58E41 /* TwoLineView.swift */; };
-		F1ECE0781DDD497A00E58E41 /* ThreeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ECE0771DDD497A00E58E41 /* ThreeLineView.swift */; };
 		F1F04FCC1D9CAE2000A5A815 /* NetworkingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */; };
 		F1FC2F381DD2F8640093ABF7 /* FrameworkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC2F371DD2F8640093ABF7 /* FrameworkDemo.swift */; };
 		F1FC2F601DD2FAF70093ABF7 /* PSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F5F1DD2FAF70093ABF7 /* PSSdk.framework */; };
@@ -185,6 +189,16 @@
 		F10723E81DBDF1E800D1C357 /* MJRefreshDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJRefreshDemo.swift; sourceTree = "<group>"; };
 		F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStepperDemo.swift; sourceTree = "<group>"; };
 		F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F10D95E91DDE9CC400DE6218 /* CirculeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirculeView.swift; sourceTree = "<group>"; };
+		F10D95EA1DDE9CC400DE6218 /* CoreGraphicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreGraphicsViewController.swift; sourceTree = "<group>"; };
+		F10D95EB1DDE9CC400DE6218 /* DottedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DottedView.swift; sourceTree = "<group>"; };
+		F10D95EC1DDE9CC400DE6218 /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		F10D95ED1DDE9CC400DE6218 /* ThreeLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeLineView.swift; sourceTree = "<group>"; };
+		F10D95EE1DDE9CC400DE6218 /* TwoLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoLineView.swift; sourceTree = "<group>"; };
+		F10D95F91DDE9D3700DE6218 /* CoreGraphicsViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreGraphicsViewController2.swift; sourceTree = "<group>"; };
+		F10D95FB1DDE9DC200DE6218 /* RectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectView.swift; sourceTree = "<group>"; };
+		F10D95FD1DDE9F2000DE6218 /* RoundRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundRectView.swift; sourceTree = "<group>"; };
+		F10D95FF1DDE9FD500DE6218 /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
 		F10E789D1DB73D60006F4A6D /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		F112678A1DC979F500955BCC /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		F112678D1DC97EB200955BCC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
@@ -257,12 +271,6 @@
 		F1DE33571D9DEFBB00C14754 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasssValueViewController.swift; sourceTree = "<group>"; };
 		F1E8C51E1DB8599600C767F1 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
-		F1ECE06D1DDD3C4400E58E41 /* CoreGraphicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreGraphicsViewController.swift; sourceTree = "<group>"; };
-		F1ECE06F1DDD3DA300E58E41 /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
-		F1ECE0711DDD42EE00E58E41 /* DottedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DottedView.swift; sourceTree = "<group>"; };
-		F1ECE0731DDD45A200E58E41 /* CirculeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirculeView.swift; sourceTree = "<group>"; };
-		F1ECE0751DDD490800E58E41 /* TwoLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoLineView.swift; sourceTree = "<group>"; };
-		F1ECE0771DDD497A00E58E41 /* ThreeLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeLineView.swift; sourceTree = "<group>"; };
 		F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingDemo.swift; sourceTree = "<group>"; };
 		F1FC2F371DD2F8640093ABF7 /* FrameworkDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkDemo.swift; sourceTree = "<group>"; };
 		F1FC2F5F1DD2FAF70093ABF7 /* PSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSSdk.framework; path = "/Users/sipeng/Desktop/学习/9月学习/Swift/PSSwift3.0Test/PSSwift3.0Test/31.Framework的制作与使用/PSSdk.framework"; sourceTree = "<absolute>"; };
@@ -342,6 +350,30 @@
 			path = "17. 微调器或叫步进器（UIStepper）的用法";
 			sourceTree = "<group>";
 		};
+		F10D95E81DDE9CC400DE6218 /* 33.CoreGraphicsFramework学习一 */ = {
+			isa = PBXGroup;
+			children = (
+				F10D95E91DDE9CC400DE6218 /* CirculeView.swift */,
+				F10D95EA1DDE9CC400DE6218 /* CoreGraphicsViewController.swift */,
+				F10D95EB1DDE9CC400DE6218 /* DottedView.swift */,
+				F10D95EC1DDE9CC400DE6218 /* LineView.swift */,
+				F10D95ED1DDE9CC400DE6218 /* ThreeLineView.swift */,
+				F10D95EE1DDE9CC400DE6218 /* TwoLineView.swift */,
+			);
+			path = "33.CoreGraphicsFramework学习一";
+			sourceTree = "<group>";
+		};
+		F10D95F51DDE9CE100DE6218 /* 34.CoreGraphicsFramework学习二 */ = {
+			isa = PBXGroup;
+			children = (
+				F10D95F91DDE9D3700DE6218 /* CoreGraphicsViewController2.swift */,
+				F10D95FB1DDE9DC200DE6218 /* RectView.swift */,
+				F10D95FD1DDE9F2000DE6218 /* RoundRectView.swift */,
+				F10D95FF1DDE9FD500DE6218 /* RoundView.swift */,
+			);
+			path = "34.CoreGraphicsFramework学习二";
+			sourceTree = "<group>";
+		};
 		F10E78951DB73D43006F4A6D /* 23.带搜索框的UITableViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -417,7 +449,8 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
-				F1ECE06C1DDD3C2300E58E41 /* 33.CoreGraphicsFramework学习 */,
+				F10D95F51DDE9CE100DE6218 /* 34.CoreGraphicsFramework学习二 */,
+				F10D95E81DDE9CC400DE6218 /* 33.CoreGraphicsFramework学习一 */,
 				F1529CAE1DDC4FF900912F49 /* 32.继承UIView，重写drawRect */,
 				F1FC2F361DD2F8430093ABF7 /* 31.Framework的制作与使用 */,
 				F1673BDA1DD0813E001E509B /* 30.实现图片的模糊效果（高斯模糊滤镜） */,
@@ -705,19 +738,6 @@
 				F1E8C51E1DB8599600C767F1 /* SubViewController.swift */,
 			);
 			path = "24.页面传值";
-			sourceTree = "<group>";
-		};
-		F1ECE06C1DDD3C2300E58E41 /* 33.CoreGraphicsFramework学习 */ = {
-			isa = PBXGroup;
-			children = (
-				F1ECE06D1DDD3C4400E58E41 /* CoreGraphicsViewController.swift */,
-				F1ECE06F1DDD3DA300E58E41 /* LineView.swift */,
-				F1ECE0711DDD42EE00E58E41 /* DottedView.swift */,
-				F1ECE0731DDD45A200E58E41 /* CirculeView.swift */,
-				F1ECE0751DDD490800E58E41 /* TwoLineView.swift */,
-				F1ECE0771DDD497A00E58E41 /* ThreeLineView.swift */,
-			);
-			path = "33.CoreGraphicsFramework学习";
 			sourceTree = "<group>";
 		};
 		F1F04FCA1D9CADEF00A5A815 /* 18.网络请求 */ = {
@@ -1027,20 +1047,22 @@
 				F198296C1D9A7542001C87FD /* DelegateDemo.swift in Sources */,
 				F1FD10501DCD95F500A42042 /* TimeLineViewController.swift in Sources */,
 				F198291E1D9A4FBB001C87FD /* ScannerDemo.swift in Sources */,
+				F10D95F31DDE9CC400DE6218 /* ThreeLineView.swift in Sources */,
 				F16CE7CE1D97DABE00443625 /* TableViewDemo.swift in Sources */,
+				F10D95FC1DDE9DC200DE6218 /* RectView.swift in Sources */,
 				F1FEB7901D9F33AC00C7A496 /* SnapKitDemo.swift in Sources */,
 				F19829731D9A7BCE001C87FD /* APPManager.swift in Sources */,
 				F1DE330F1D9DED7900C14754 /* SDBrowserImageView.m in Sources */,
+				F10D95F21DDE9CC400DE6218 /* LineView.swift in Sources */,
 				F16CE7CF1D97DABE00443625 /* VideoCell.swift in Sources */,
 				F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */,
-				F1ECE0741DDD45A200E58E41 /* CirculeView.swift in Sources */,
 				F1FC2F381DD2F8640093ABF7 /* FrameworkDemo.swift in Sources */,
 				F1D423801D9B4E64005AA7CD /* SelectCellExpandDemo.swift in Sources */,
 				F1720B771D99183400C62F50 /* TableViewPullDemo.swift in Sources */,
 				F19829111D9A096B001C87FD /* CustomLayout.swift in Sources */,
 				F10723E91DBDF1E800D1C357 /* MJRefreshDemo.swift in Sources */,
+				F10D95FA1DDE9D3700DE6218 /* CoreGraphicsViewController2.swift in Sources */,
 				F1E8C51D1DB8598E00C767F1 /* PasssValueViewController.swift in Sources */,
-				F1ECE0781DDD497A00E58E41 /* ThreeLineView.swift in Sources */,
 				F16CE77D1D97815700443625 /* AppDelegate.swift in Sources */,
 				F1529CB01DDC500C00912F49 /* DrawViewController.swift in Sources */,
 				F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */,
@@ -1048,13 +1070,10 @@
 				F1673BDC1DD0815A001E509B /* ImageBlureViewController.swift in Sources */,
 				F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */,
 				F16CE7D31D97DABE00443625 /* ViewController.swift in Sources */,
-				F1ECE0761DDD490800E58E41 /* TwoLineView.swift in Sources */,
-				F1ECE06E1DDD3C4400E58E41 /* CoreGraphicsViewController.swift in Sources */,
 				F1DE33101D9DED7900C14754 /* SDPhotoBrowser.m in Sources */,
 				F16CE7D11D97DABE00443625 /* VideoModel.swift in Sources */,
 				F198290F1D9A0898001C87FD /* CustomLayoutVc.swift in Sources */,
 				F16CE7D41D97DABE00443625 /* ScrollViewDemo.swift in Sources */,
-				F1ECE0701DDD3DA300E58E41 /* LineView.swift in Sources */,
 				F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */,
 				F105C4A51DB9E647000998B6 /* StructViewController.swift in Sources */,
 				F1D423861D9B78B3005AA7CD /* UIWebViewDemo.swift in Sources */,
@@ -1064,8 +1083,10 @@
 				F1D4237D1D9B4590005AA7CD /* OpenUrlDemo.swift in Sources */,
 				F19829131D9A1059001C87FD /* UICollectionGridViewController.swift in Sources */,
 				F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */,
+				F10D95F01DDE9CC400DE6218 /* CoreGraphicsViewController.swift in Sources */,
+				F10D95EF1DDE9CC400DE6218 /* CirculeView.swift in Sources */,
 				F16CE7D51D97DABE00443625 /* ScrollViewDemo1.swift in Sources */,
-				F1ECE0721DDD42EE00E58E41 /* DottedView.swift in Sources */,
+				F10D95F11DDE9CC400DE6218 /* DottedView.swift in Sources */,
 				F1529CB21DDC517100912F49 /* PSView.swift in Sources */,
 				F1720B7A1D99293500C62F50 /* CollectionViewDemo.swift in Sources */,
 				F1F04FCC1D9CAE2000A5A815 /* NetworkingDemo.swift in Sources */,
@@ -1073,8 +1094,11 @@
 				F16CE7B31D97ADF900443625 /* Tools.swift in Sources */,
 				F16CE7D61D97DABE00443625 /* ScrollViewDemo2.swift in Sources */,
 				F1720B5E1D98FE1700C62F50 /* RowHeightCell.swift in Sources */,
+				F10D95F41DDE9CC400DE6218 /* TwoLineView.swift in Sources */,
 				F19829711D9A7B78001C87FD /* SingleInstanceDemo.swift in Sources */,
+				F10D95FE1DDE9F2000DE6218 /* RoundRectView.swift in Sources */,
 				F198296E1D9A75C6001C87FD /* DelegateDemo1.swift in Sources */,
+				F10D96001DDE9FD500DE6218 /* RoundView.swift in Sources */,
 				F112678B1DC979F500955BCC /* ColorViewController.swift in Sources */,
 				F198291B1D9A4A28001C87FD /* BUttonChangeTitleDemo.swift in Sources */,
 			);

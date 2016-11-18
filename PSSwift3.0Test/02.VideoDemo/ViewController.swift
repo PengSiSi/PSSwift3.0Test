@@ -42,7 +42,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "30:实现图片的模糊效果(高斯模糊滤镜)",
                                "31:FrameWork的制作与使用",
                                "32:继承UIView，重写DrawRect",
-                               "33:CoreGraphicsFramework学习"
+                               "33:CoreGraphicsFramework学习一",
+                               "34:CoreGraphicsFramework学习二"
                               ];
     let tableView = UITableView()
     
@@ -213,6 +214,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 32 {
             let coreGraphicsDemo  = CoreGraphicsViewController ()
             self.navigationController?.pushViewController(coreGraphicsDemo, animated: true)
+        }
+        if indexPath.row == 33 {
+            let coreGraphics1Demo  = CoreGraphicsViewController2 ()
+            self.navigationController?.pushViewController(coreGraphics1Demo, animated: true)
         }
     }
 }

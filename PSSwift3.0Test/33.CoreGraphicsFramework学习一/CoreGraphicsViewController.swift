@@ -4,6 +4,8 @@
 //
 //  Created by 思 彭 on 16/11/17.
 //  Copyright © 2016年 思 彭. All rights reserved.
+
+// 线条的绘制
 /*
  1，什么是Core Graphics
  （1）Core Graphics Framework 是一套基于 C 的 API 框架，使用了 Quartz 作为绘图引擎，可用于一切绘图操作。它提供了低级别、轻量级、高保真度的 2D 渲染。
