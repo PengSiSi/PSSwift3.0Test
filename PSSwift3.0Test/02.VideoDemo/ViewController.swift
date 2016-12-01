@@ -43,7 +43,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "31:FrameWork的制作与使用",
                                "32:继承UIView，重写DrawRect",
                                "33:CoreGraphicsFramework学习一",
-                               "34:CoreGraphicsFramework学习二"
+                               "34:CoreGraphicsFramework学习二",
+                               "35:UIViewPropertyAnimatorDemo做动画"
                               ];
     let tableView = UITableView()
     
@@ -218,6 +219,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 33 {
             let coreGraphics1Demo  = CoreGraphicsViewController2 ()
             self.navigationController?.pushViewController(coreGraphics1Demo, animated: true)
+        }
+        if indexPath.row == 34 {
+            let animationDemo  = UIViewPropertyAnimatorDemo()
+            self.navigationController?.pushViewController(animationDemo, animated: true)
         }
     }
 }
