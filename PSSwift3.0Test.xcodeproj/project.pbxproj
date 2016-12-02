@@ -26,6 +26,7 @@
 		F112678B1DC979F500955BCC /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112678A1DC979F500955BCC /* ColorViewController.swift */; };
 		F112678E1DC97EB200955BCC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112678D1DC97EB200955BCC /* WebViewController.swift */; };
 		F11BAA5B1DEFF2B90053768D /* self.view.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BAA5A1DEFF2B90053768D /* self.view.swift */; };
+		F11BAA5F1DF0290A0053768D /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BAA5E1DF0290A0053768D /* SearchBarViewController.swift */; };
 		F12630091DD3002B00723309 /* PSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; };
 		F126300A1DD3002B00723309 /* PSSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F12630131DD300FC00723309 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12630121DD300FC00723309 /* ImageProcessor.swift */; };
@@ -91,6 +92,8 @@
 		F1FC2F381DD2F8640093ABF7 /* FrameworkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC2F371DD2F8640093ABF7 /* FrameworkDemo.swift */; };
 		F1FC2F601DD2FAF70093ABF7 /* PSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F5F1DD2FAF70093ABF7 /* PSSdk.framework */; };
 		F1FC2F641DD300130093ABF7 /* PSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; };
+		F1FC44211DF1010200C9D805 /* searchBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC44201DF1010200C9D805 /* searchBarVC.swift */; };
+		F1FC44251DF10A2900C9D805 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC44241DF10A2900C9D805 /* DateViewController.swift */; };
 		F1FD10501DCD95F500A42042 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FD104F1DCD95F500A42042 /* TimeLineViewController.swift */; };
 		F1FD10521DCDCCA100A42042 /* TimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FD10511DCDCCA100A42042 /* TimeLineCell.swift */; };
 		F1FEB7901D9F33AC00C7A496 /* SnapKitDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB78F1D9F33AC00C7A496 /* SnapKitDemo.swift */; };
@@ -205,6 +208,7 @@
 		F112678A1DC979F500955BCC /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		F112678D1DC97EB200955BCC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F11BAA5A1DEFF2B90053768D /* self.view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = self.view.swift; sourceTree = "<group>"; };
+		F11BAA5E1DF0290A0053768D /* SearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		F12630121DD300FC00723309 /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 		F1529CAF1DDC500C00912F49 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		F1529CB11DDC517100912F49 /* PSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSView.swift; sourceTree = "<group>"; };
@@ -279,6 +283,8 @@
 		F1FC2F371DD2F8640093ABF7 /* FrameworkDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkDemo.swift; sourceTree = "<group>"; };
 		F1FC2F5F1DD2FAF70093ABF7 /* PSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSSdk.framework; path = "/Users/sipeng/Desktop/学习/9月学习/Swift/PSSwift3.0Test/PSSwift3.0Test/31.Framework的制作与使用/PSSdk.framework"; sourceTree = "<absolute>"; };
 		F1FC2F631DD300130093ABF7 /* PSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PSSdk.framework; sourceTree = "<group>"; };
+		F1FC44201DF1010200C9D805 /* searchBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchBarVC.swift; sourceTree = "<group>"; };
+		F1FC44241DF10A2900C9D805 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 		F1FD104F1DCD95F500A42042 /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 		F1FD10511DCDCCA100A42042 /* TimeLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineCell.swift; sourceTree = "<group>"; };
 		F1FEB78F1D9F33AC00C7A496 /* SnapKitDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitDemo.swift; sourceTree = "<group>"; };
@@ -410,6 +416,15 @@
 			path = "36.闭包的使用";
 			sourceTree = "<group>";
 		};
+		F11BAA5D1DF028FB0053768D /* 37.UISearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				F11BAA5E1DF0290A0053768D /* SearchBarViewController.swift */,
+				F1FC44201DF1010200C9D805 /* searchBarVC.swift */,
+			);
+			path = 37.UISearchBar;
+			sourceTree = "<group>";
+		};
 		F1529CAE1DDC4FF900912F49 /* 32.继承UIView，重写drawRect */ = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +476,8 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1FC44231DF10A1D00C9D805 /* 38.日期比较 */,
+				F11BAA5D1DF028FB0053768D /* 37.UISearchBar */,
 				F11BAA591DEFF1C40053768D /* 36.闭包的使用 */,
 				F186A4891DEEDC3B0011F1CF /* 35. UIViewPropertyAnimator 做动画 */,
 				F10D95F51DDE9CE100DE6218 /* 34.CoreGraphicsFramework学习二 */,
@@ -781,6 +798,14 @@
 			path = "31.Framework的制作与使用";
 			sourceTree = "<group>";
 		};
+		F1FC44231DF10A1D00C9D805 /* 38.日期比较 */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC44241DF10A2900C9D805 /* DateViewController.swift */,
+			);
+			path = "38.日期比较";
+			sourceTree = "<group>";
+		};
 		F1FD104E1DCD95DE00A42042 /* 29.时间轴效果的实现 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1091,6 +1116,7 @@
 				F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */,
 				F1FD10521DCDCCA100A42042 /* TimeLineCell.swift in Sources */,
 				F1673BDC1DD0815A001E509B /* ImageBlureViewController.swift in Sources */,
+				F1FC44251DF10A2900C9D805 /* DateViewController.swift in Sources */,
 				F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */,
 				F16CE7D31D97DABE00443625 /* ViewController.swift in Sources */,
 				F1DE33101D9DED7900C14754 /* SDPhotoBrowser.m in Sources */,
@@ -1117,11 +1143,13 @@
 				F16CE7B31D97ADF900443625 /* Tools.swift in Sources */,
 				F16CE7D61D97DABE00443625 /* ScrollViewDemo2.swift in Sources */,
 				F1720B5E1D98FE1700C62F50 /* RowHeightCell.swift in Sources */,
+				F11BAA5F1DF0290A0053768D /* SearchBarViewController.swift in Sources */,
 				F10D95F41DDE9CC400DE6218 /* TwoLineView.swift in Sources */,
 				F19829711D9A7B78001C87FD /* SingleInstanceDemo.swift in Sources */,
 				F10D95FE1DDE9F2000DE6218 /* RoundRectView.swift in Sources */,
 				F198296E1D9A75C6001C87FD /* DelegateDemo1.swift in Sources */,
 				F10D96001DDE9FD500DE6218 /* RoundView.swift in Sources */,
+				F1FC44211DF1010200C9D805 /* searchBarVC.swift in Sources */,
 				F11BAA5B1DEFF2B90053768D /* self.view.swift in Sources */,
 				F112678B1DC979F500955BCC /* ColorViewController.swift in Sources */,
 				F198291B1D9A4A28001C87FD /* BUttonChangeTitleDemo.swift in Sources */,

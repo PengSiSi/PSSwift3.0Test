@@ -44,7 +44,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "32:继承UIView，重写DrawRect",
                                "33:CoreGraphicsFramework学习一",
                                "34:CoreGraphicsFramework学习二",
-                               "35:UIViewPropertyAnimatorDemo做动画"
+                               "35:UIViewPropertyAnimatorDemo做动画",
+                               "36:UISearchBar使用",
+                               "37:日期的比较使用"
                               ];
     let tableView = UITableView()
     
@@ -223,6 +225,14 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 34 {
             let animationDemo  = UIViewPropertyAnimatorDemo()
             self.navigationController?.pushViewController(animationDemo, animated: true)
+        }
+        if indexPath.row == 35 {
+            let searchBarDemo  = SearchBarViewController()
+            self.navigationController?.pushViewController(searchBarDemo, animated: true)
+        }
+        if indexPath.row == 36 {
+            let dateDemo  = DateViewController()
+            self.navigationController?.pushViewController(dateDemo, animated: true)
         }
     }
 }
