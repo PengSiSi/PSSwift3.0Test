@@ -46,7 +46,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "34:CoreGraphicsFramework学习二",
                                "35:UIViewPropertyAnimatorDemo做动画",
                                "36:UISearchBar使用",
-                               "37:日期的比较使用"
+                               "37:日期的比较使用",
+                               "38:多图片动画效果",
+                               "39:仿京东心跳动画"
                               ];
     let tableView = UITableView()
     
@@ -234,6 +236,15 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             let dateDemo  = DateViewController()
             self.navigationController?.pushViewController(dateDemo, animated: true)
         }
+        if indexPath.row == 37 {
+            let imageAnimationDemo  = ImageAnimationVC()
+            self.navigationController?.pushViewController(imageAnimationDemo, animated: true)
+        }
+        if indexPath.row == 38 {
+            let heartAnimationDemo  = HeartAnimationVC()
+            self.navigationController?.pushViewController(heartAnimationDemo, animated: true)
+        }
+
     }
 }
 
