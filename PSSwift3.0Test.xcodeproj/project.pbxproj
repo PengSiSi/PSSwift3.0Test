@@ -166,6 +166,9 @@
 		F1E8C51D1DB8598E00C767F1 /* PasssValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */; };
 		F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E8C51E1DB8599600C767F1 /* SubViewController.swift */; };
 		F1F04FCC1D9CAE2000A5A815 /* NetworkingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */; };
+		F1FB39621E010EF3009AD8EB /* PresentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB39611E010EF3009AD8EB /* PresentVC.swift */; };
+		F1FB39641E010F9E009AD8EB /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB39631E010F9E009AD8EB /* ViewController1.swift */; };
+		F1FB39661E010FA4009AD8EB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB39651E010FA4009AD8EB /* ViewController2.swift */; };
 		F1FC2F381DD2F8640093ABF7 /* FrameworkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC2F371DD2F8640093ABF7 /* FrameworkDemo.swift */; };
 		F1FC2F601DD2FAF70093ABF7 /* PSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F5F1DD2FAF70093ABF7 /* PSSdk.framework */; };
 		F1FC2F641DD300130093ABF7 /* PSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; };
@@ -434,6 +437,9 @@
 		F1E8C51C1DB8598E00C767F1 /* PasssValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasssValueViewController.swift; sourceTree = "<group>"; };
 		F1E8C51E1DB8599600C767F1 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingDemo.swift; sourceTree = "<group>"; };
+		F1FB39611E010EF3009AD8EB /* PresentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentVC.swift; sourceTree = "<group>"; };
+		F1FB39631E010F9E009AD8EB /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		F1FB39651E010FA4009AD8EB /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		F1FC2F371DD2F8640093ABF7 /* FrameworkDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkDemo.swift; sourceTree = "<group>"; };
 		F1FC2F5F1DD2FAF70093ABF7 /* PSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSSdk.framework; path = "/Users/sipeng/Desktop/学习/9月学习/Swift/PSSwift3.0Test/PSSwift3.0Test/31.Framework的制作与使用/PSSdk.framework"; sourceTree = "<absolute>"; };
 		F1FC2F631DD300130093ABF7 /* PSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PSSdk.framework; sourceTree = "<group>"; };
@@ -728,6 +734,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1FB39601E010EE3009AD8EB /* 41.PresentVCDemo */,
 				F137D2911DFE7042006D8752 /* 40.仿京东心跳动画 */,
 				F105AB861DF93B4600FFFC42 /* 39.多图片动画效果 */,
 				F1FC44231DF10A1D00C9D805 /* 38.日期比较 */,
@@ -1041,6 +1048,16 @@
 				F1F04FCB1D9CAE2000A5A815 /* NetworkingDemo.swift */,
 			);
 			path = "18.网络请求";
+			sourceTree = "<group>";
+		};
+		F1FB39601E010EE3009AD8EB /* 41.PresentVCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1FB39611E010EF3009AD8EB /* PresentVC.swift */,
+				F1FB39631E010F9E009AD8EB /* ViewController1.swift */,
+				F1FB39651E010FA4009AD8EB /* ViewController2.swift */,
+			);
+			path = 41.PresentVCDemo;
 			sourceTree = "<group>";
 		};
 		F1FC2F361DD2F8430093ABF7 /* 31.Framework的制作与使用 */ = {
@@ -1462,6 +1479,7 @@
 				F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */,
 				F1DE33111D9DED7900C14754 /* SDWaitingView.m in Sources */,
 				F1D4237D1D9B4590005AA7CD /* OpenUrlDemo.swift in Sources */,
+				F1FB39621E010EF3009AD8EB /* PresentVC.swift in Sources */,
 				F19829131D9A1059001C87FD /* UICollectionGridViewController.swift in Sources */,
 				F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */,
 				F10D95F01DDE9CC400DE6218 /* CoreGraphicsViewController.swift in Sources */,
@@ -1473,12 +1491,14 @@
 				F1F04FCC1D9CAE2000A5A815 /* NetworkingDemo.swift in Sources */,
 				F1D423831D9B634D005AA7CD /* GCDDemo.swift in Sources */,
 				F16CE7B31D97ADF900443625 /* Tools.swift in Sources */,
+				F1FB39641E010F9E009AD8EB /* ViewController1.swift in Sources */,
 				F16CE7D61D97DABE00443625 /* ScrollViewDemo2.swift in Sources */,
 				F1720B5E1D98FE1700C62F50 /* RowHeightCell.swift in Sources */,
 				F11BAA5F1DF0290A0053768D /* SearchBarViewController.swift in Sources */,
 				F10D95F41DDE9CC400DE6218 /* TwoLineView.swift in Sources */,
 				F19829711D9A7B78001C87FD /* SingleInstanceDemo.swift in Sources */,
 				F10D95FE1DDE9F2000DE6218 /* RoundRectView.swift in Sources */,
+				F1FB39661E010FA4009AD8EB /* ViewController2.swift in Sources */,
 				F198296E1D9A75C6001C87FD /* DelegateDemo1.swift in Sources */,
 				F10D96001DDE9FD500DE6218 /* RoundView.swift in Sources */,
 				F1FC44211DF1010200C9D805 /* searchBarVC.swift in Sources */,

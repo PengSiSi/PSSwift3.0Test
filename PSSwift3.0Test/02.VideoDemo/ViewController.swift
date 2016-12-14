@@ -48,7 +48,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "36:UISearchBar使用",
                                "37:日期的比较使用",
                                "38:多图片动画效果",
-                               "39:仿京东心跳动画"
+                               "39:仿京东心跳动画",
+                               "40:PresentViewController的使用"
                               ];
     let tableView = UITableView()
     
@@ -244,7 +245,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             let heartAnimationDemo  = HeartAnimationVC()
             self.navigationController?.pushViewController(heartAnimationDemo, animated: true)
         }
-
+        if indexPath.row == 39 {
+            let presentDemo  = PresentVC()
+            self.navigationController?.pushViewController(presentDemo, animated: true)
+        }
     }
 }
 
