@@ -49,7 +49,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "37:日期的比较使用",
                                "38:多图片动画效果",
                                "39:仿京东心跳动画",
-                               "40:PresentViewController的使用"
+                               "40:PresentViewController的使用",
+                               "41:自定义UIPickView",
+                               "42:封装打印日志信息"
                               ];
     let tableView = UITableView()
     
@@ -248,6 +250,14 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 39 {
             let presentDemo  = PresentVC()
             self.navigationController?.pushViewController(presentDemo, animated: true)
+        }
+        if indexPath.row == 40 {
+            let pickViewDemo  = PickViewController()
+            self.navigationController?.pushViewController(pickViewDemo, animated: true)
+        }
+        if indexPath.row == 41 {
+            let printLogDemo  = PrintLogViewController()
+            self.navigationController?.pushViewController(printLogDemo, animated: true)
         }
     }
 }
