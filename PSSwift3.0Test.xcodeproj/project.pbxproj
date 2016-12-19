@@ -143,6 +143,8 @@
 		F1720B771D99183400C62F50 /* TableViewPullDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1720B761D99183400C62F50 /* TableViewPullDemo.swift */; };
 		F1720B7A1D99293500C62F50 /* CollectionViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1720B791D99293500C62F50 /* CollectionViewDemo.swift */; };
 		F186A48D1DEEDC740011F1CF /* UIViewPropertyAnimatorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186A48C1DEEDC740011F1CF /* UIViewPropertyAnimatorDemo.swift */; };
+		F18E073F1E03D1AD00F42A4C /* GetSpaceSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E073E1E03D1AD00F42A4C /* GetSpaceSizeViewController.swift */; };
+		F18E07411E03D20500F42A4C /* SpaceSizeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E07401E03D20500F42A4C /* SpaceSizeTool.swift */; };
 		F198290F1D9A0898001C87FD /* CustomLayoutVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198290E1D9A0898001C87FD /* CustomLayoutVc.swift */; };
 		F19829111D9A096B001C87FD /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19829101D9A096B001C87FD /* CustomLayout.swift */; };
 		F19829131D9A1059001C87FD /* UICollectionGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19829121D9A1059001C87FD /* UICollectionGridViewController.swift */; };
@@ -164,6 +166,9 @@
 		F1D4238C1D9B87BD005AA7CD /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D423881D9B87BD005AA7CD /* forward.png */; };
 		F1D4238D1D9B87BD005AA7CD /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D423891D9B87BD005AA7CD /* reload.png */; };
 		F1D4238E1D9B87BD005AA7CD /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4238A1D9B87BD005AA7CD /* stop.png */; };
+		F1D9DD4A1E051D610093A3A5 /* String+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9DD471E051D610093A3A5 /* String+Extenstion.swift */; };
+		F1D9DD4B1E051D610093A3A5 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9DD481E051D610093A3A5 /* UIColor+Extension.swift */; };
+		F1D9DD4C1E051D610093A3A5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9DD491E051D610093A3A5 /* UIView+Extension.swift */; };
 		F1DE330F1D9DED7900C14754 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE33091D9DED7900C14754 /* SDBrowserImageView.m */; };
 		F1DE33101D9DED7900C14754 /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE330B1D9DED7900C14754 /* SDPhotoBrowser.m */; };
 		F1DE33111D9DED7900C14754 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DE330E1D9DED7900C14754 /* SDWaitingView.m */; };
@@ -414,6 +419,8 @@
 		F1720B761D99183400C62F50 /* TableViewPullDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewPullDemo.swift; sourceTree = "<group>"; };
 		F1720B791D99293500C62F50 /* CollectionViewDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDemo.swift; sourceTree = "<group>"; };
 		F186A48C1DEEDC740011F1CF /* UIViewPropertyAnimatorDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewPropertyAnimatorDemo.swift; sourceTree = "<group>"; };
+		F18E073E1E03D1AD00F42A4C /* GetSpaceSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSpaceSizeViewController.swift; sourceTree = "<group>"; };
+		F18E07401E03D20500F42A4C /* SpaceSizeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceSizeTool.swift; sourceTree = "<group>"; };
 		F198290E1D9A0898001C87FD /* CustomLayoutVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLayoutVc.swift; sourceTree = "<group>"; };
 		F19829101D9A096B001C87FD /* CustomLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
 		F19829121D9A1059001C87FD /* UICollectionGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionGridViewController.swift; sourceTree = "<group>"; };
@@ -434,6 +441,9 @@
 		F1D423881D9B87BD005AA7CD /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
 		F1D423891D9B87BD005AA7CD /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
 		F1D4238A1D9B87BD005AA7CD /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		F1D9DD471E051D610093A3A5 /* String+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extenstion.swift"; sourceTree = "<group>"; };
+		F1D9DD481E051D610093A3A5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		F1D9DD491E051D610093A3A5 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		F1DE33081D9DED7900C14754 /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
 		F1DE33091D9DED7900C14754 /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
 		F1DE330A1D9DED7900C14754 /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
@@ -760,6 +770,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F18E073D1E03D18800F42A4C /* 44.获取空间大小 */,
 				F14973661E0373AF00549BFD /* 43.封装打印日志信息 */,
 				F10C979A1E026CE8004EEBA0 /* 42.自定义UIPickView */,
 				F1FB39601E010EE3009AD8EB /* 41.PresentVCDemo */,
@@ -928,6 +939,16 @@
 			path = "35. UIViewPropertyAnimator 做动画";
 			sourceTree = "<group>";
 		};
+		F18E073D1E03D18800F42A4C /* 44.获取空间大小 */ = {
+			isa = PBXGroup;
+			children = (
+				F1D9DD461E051D610093A3A5 /* Category */,
+				F18E073E1E03D1AD00F42A4C /* GetSpaceSizeViewController.swift */,
+				F18E07401E03D20500F42A4C /* SpaceSizeTool.swift */,
+			);
+			path = "44.获取空间大小";
+			sourceTree = "<group>";
+		};
 		F198290D1D9A0886001C87FD /* 07.CustomLayout实现复杂布局 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1030,6 +1051,16 @@
 				F1D423851D9B78B3005AA7CD /* UIWebViewDemo.swift */,
 			);
 			path = "16.使用UIWebView和UIToolbar制作一个浏览器";
+			sourceTree = "<group>";
+		};
+		F1D9DD461E051D610093A3A5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F1D9DD471E051D610093A3A5 /* String+Extenstion.swift */,
+				F1D9DD481E051D610093A3A5 /* UIColor+Extension.swift */,
+				F1D9DD491E051D610093A3A5 /* UIView+Extension.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		F1DE33071D9DED7900C14754 /* SDPhotoBrowser */ = {
@@ -1463,6 +1494,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F16CE7D21D97DABE00443625 /* VideoPLayDemo.swift in Sources */,
+				F1D9DD4B1E051D610093A3A5 /* UIColor+Extension.swift in Sources */,
 				F10A5A7E1D9B9FBC00EB2021 /* BaseViewController.swift in Sources */,
 				F12630131DD300FC00723309 /* ImageProcessor.swift in Sources */,
 				F19829161D9A3B0C001C87FD /* UIBlurEffectDemo.swift in Sources */,
@@ -1479,6 +1511,7 @@
 				F1FEB7901D9F33AC00C7A496 /* SnapKitDemo.swift in Sources */,
 				F19829731D9A7BCE001C87FD /* APPManager.swift in Sources */,
 				F1DE330F1D9DED7900C14754 /* SDBrowserImageView.m in Sources */,
+				F1D9DD4C1E051D610093A3A5 /* UIView+Extension.swift in Sources */,
 				F10D95F21DDE9CC400DE6218 /* LineView.swift in Sources */,
 				F16CE7CF1D97DABE00443625 /* VideoCell.swift in Sources */,
 				F137D2961DFE707B006D8752 /* HeartAnimationVC.swift in Sources */,
@@ -1515,6 +1548,8 @@
 				F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */,
 				F10D95F01DDE9CC400DE6218 /* CoreGraphicsViewController.swift in Sources */,
 				F10D95EF1DDE9CC400DE6218 /* CirculeView.swift in Sources */,
+				F1D9DD4A1E051D610093A3A5 /* String+Extenstion.swift in Sources */,
+				F18E07411E03D20500F42A4C /* SpaceSizeTool.swift in Sources */,
 				F16CE7D51D97DABE00443625 /* ScrollViewDemo1.swift in Sources */,
 				F10D95F11DDE9CC400DE6218 /* DottedView.swift in Sources */,
 				F1529CB21DDC517100912F49 /* PSView.swift in Sources */,
@@ -1532,6 +1567,7 @@
 				F10D95FE1DDE9F2000DE6218 /* RoundRectView.swift in Sources */,
 				F1FB39661E010FA4009AD8EB /* ViewController2.swift in Sources */,
 				F198296E1D9A75C6001C87FD /* DelegateDemo1.swift in Sources */,
+				F18E073F1E03D1AD00F42A4C /* GetSpaceSizeViewController.swift in Sources */,
 				F10D96001DDE9FD500DE6218 /* RoundView.swift in Sources */,
 				F1FC44211DF1010200C9D805 /* searchBarVC.swift in Sources */,
 				F11BAA5B1DEFF2B90053768D /* self.view.swift in Sources */,

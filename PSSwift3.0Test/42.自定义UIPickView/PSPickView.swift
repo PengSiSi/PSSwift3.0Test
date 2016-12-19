@@ -5,7 +5,7 @@
 //  Created by 思 彭 on 16/12/15.
 //  Copyright © 2016年 思 彭. All rights reserved.
 
-// 自定义省市互动的PickView
+// 省市互动的PickView
 
 import UIKit
 
@@ -43,16 +43,30 @@ class PSPickView: UIPickerView, UIPickerViewDelegate, UIPickerViewDataSource {
                 return
             }
             tempArr.add(str)
+            // 省
             provinceArr = tempArr
         }
         
-        for array in dataArray! {
+        // 市
+        for (_, value) in (dataArray?.enumerated())! {
             
-//            let arr = array as! NSArray
-//            for dic in arr {
-//                
-//            }
+            let dic = value as! NSDictionary
+            let citiesArray: NSArray = dic.value(forKey: "cities") as! NSArray
+            for cities in citiesArray {
+               
+//                let cities = cities as! NSDictionary
+//                var tempCityArr = NSMutableArray(array: cityArr)
+//                let city = dic.value(forKey: "city")
+//                guard  let str = city else {
+//                    return
+//                }
+//                tempCityArr.add(str)
+//                // 省
+//                cityArr = tempCityArr
+//
+            }
         }
+        
         let cityDict = dataArray?.firstObject as! NSDictionary
         var cityArr = cityDict.value(forKey: "cities") as! NSArray
         let tempCitysArr = NSMutableArray.init(array: cityArr)

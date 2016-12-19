@@ -51,7 +51,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "39:仿京东心跳动画",
                                "40:PresentViewController的使用",
                                "41:自定义UIPickView",
-                               "42:封装打印日志信息"
+                               "42:封装打印日志信息",
+                               "43:获取空间大小"
                               ];
     let tableView = UITableView()
     
@@ -258,6 +259,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 41 {
             let printLogDemo  = PrintLogViewController()
             self.navigationController?.pushViewController(printLogDemo, animated: true)
+        }
+        if indexPath.row == 42 {
+            let getSpaceSizeDemo  = GetSpaceSizeViewController()
+            self.navigationController?.pushViewController(getSpaceSizeDemo, animated: true)
         }
     }
 }
