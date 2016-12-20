@@ -110,6 +110,7 @@
 		F137D28F1DFE701F006D8752 /* 计划_300x300_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F137D2441DFE701F006D8752 /* 计划_300x300_@1x.png */; };
 		F137D2901DFE701F006D8752 /* 读书1_300x300_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F137D2451DFE701F006D8752 /* 读书1_300x300_@1x.png */; };
 		F137D2961DFE707B006D8752 /* HeartAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F137D2951DFE707B006D8752 /* HeartAnimationVC.swift */; };
+		F1492DAC1E08BFF9009137DA /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */; };
 		F14973681E0373CE00549BFD /* PrintLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14973671E0373CE00549BFD /* PrintLogViewController.swift */; };
 		F1529CB01DDC500C00912F49 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CAF1DDC500C00912F49 /* DrawViewController.swift */; };
 		F1529CB21DDC517100912F49 /* PSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CB11DDC517100912F49 /* PSView.swift */; };
@@ -379,6 +380,7 @@
 		F137D2441DFE701F006D8752 /* 计划_300x300_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "计划_300x300_@1x.png"; sourceTree = "<group>"; };
 		F137D2451DFE701F006D8752 /* 读书1_300x300_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "读书1_300x300_@1x.png"; sourceTree = "<group>"; };
 		F137D2951DFE707B006D8752 /* HeartAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartAnimationVC.swift; sourceTree = "<group>"; };
+		F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
 		F14973671E0373CE00549BFD /* PrintLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLogViewController.swift; sourceTree = "<group>"; };
 		F1529CAF1DDC500C00912F49 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		F1529CB11DDC517100912F49 /* PSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSView.swift; sourceTree = "<group>"; };
@@ -711,6 +713,14 @@
 			path = "40.仿京东心跳动画";
 			sourceTree = "<group>";
 		};
+		F1492DAA1E08BFDE009137DA /* 45.Swift协议深入学习 */ = {
+			isa = PBXGroup;
+			children = (
+				F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */,
+			);
+			path = "45.Swift协议深入学习";
+			sourceTree = "<group>";
+		};
 		F14973661E0373AF00549BFD /* 43.封装打印日志信息 */ = {
 			isa = PBXGroup;
 			children = (
@@ -770,6 +780,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1492DAA1E08BFDE009137DA /* 45.Swift协议深入学习 */,
 				F18E073D1E03D18800F42A4C /* 44.获取空间大小 */,
 				F14973661E0373AF00549BFD /* 43.封装打印日志信息 */,
 				F10C979A1E026CE8004EEBA0 /* 42.自定义UIPickView */,
@@ -1539,6 +1550,7 @@
 				F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */,
 				F105C4A51DB9E647000998B6 /* StructViewController.swift in Sources */,
 				F1D423861D9B78B3005AA7CD /* UIWebViewDemo.swift in Sources */,
+				F1492DAC1E08BFF9009137DA /* ProtocolViewController.swift in Sources */,
 				F112678E1DC97EB200955BCC /* WebViewController.swift in Sources */,
 				F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */,
 				F1DE33111D9DED7900C14754 /* SDWaitingView.m in Sources */,

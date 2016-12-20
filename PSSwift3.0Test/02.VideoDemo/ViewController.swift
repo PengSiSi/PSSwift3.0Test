@@ -52,7 +52,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "40:PresentViewController的使用",
                                "41:自定义UIPickView",
                                "42:封装打印日志信息",
-                               "43:获取空间大小"
+                               "43:获取空间大小",
+                               "44:Protocol的使用"
                               ];
     let tableView = UITableView()
     
@@ -263,6 +264,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 42 {
             let getSpaceSizeDemo  = GetSpaceSizeViewController()
             self.navigationController?.pushViewController(getSpaceSizeDemo, animated: true)
+        }
+        if indexPath.row == 43 {
+            let protocolDemo  = ProtocolViewController()
+            self.navigationController?.pushViewController(protocolDemo, animated: true)
         }
     }
 }
