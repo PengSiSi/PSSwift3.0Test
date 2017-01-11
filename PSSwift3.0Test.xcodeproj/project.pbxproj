@@ -110,6 +110,8 @@
 		F137D28F1DFE701F006D8752 /* 计划_300x300_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F137D2441DFE701F006D8752 /* 计划_300x300_@1x.png */; };
 		F137D2901DFE701F006D8752 /* 读书1_300x300_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F137D2451DFE701F006D8752 /* 读书1_300x300_@1x.png */; };
 		F137D2961DFE707B006D8752 /* HeartAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F137D2951DFE707B006D8752 /* HeartAnimationVC.swift */; };
+		F1490B9C1E1B36FF001B2E16 /* CAShapeLayerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1490B9B1E1B36FF001B2E16 /* CAShapeLayerDemo.swift */; };
+		F1490BE71E1BA20F001B2E16 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1490BE61E1BA20F001B2E16 /* TestViewController.swift */; };
 		F1492DAC1E08BFF9009137DA /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */; };
 		F14973681E0373CE00549BFD /* PrintLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14973671E0373CE00549BFD /* PrintLogViewController.swift */; };
 		F1529CB01DDC500C00912F49 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CAF1DDC500C00912F49 /* DrawViewController.swift */; };
@@ -143,9 +145,14 @@
 		F1720B681D99090B00C62F50 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1720B651D99090B00C62F50 /* img3.jpg */; };
 		F1720B771D99183400C62F50 /* TableViewPullDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1720B761D99183400C62F50 /* TableViewPullDemo.swift */; };
 		F1720B7A1D99293500C62F50 /* CollectionViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1720B791D99293500C62F50 /* CollectionViewDemo.swift */; };
+		F176A6CD1E25C8050076D301 /* MyCollectionViewVCCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176A6CC1E25C8050076D301 /* MyCollectionViewVCCollectionViewController.swift */; };
+		F176A6D01E25CF7C0076D301 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176A6CE1E25CF7C0076D301 /* CollectionViewCell.swift */; };
+		F176A6D11E25CF7C0076D301 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F176A6CF1E25CF7C0076D301 /* CollectionViewCell.xib */; };
 		F186A48D1DEEDC740011F1CF /* UIViewPropertyAnimatorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186A48C1DEEDC740011F1CF /* UIViewPropertyAnimatorDemo.swift */; };
 		F18E073F1E03D1AD00F42A4C /* GetSpaceSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E073E1E03D1AD00F42A4C /* GetSpaceSizeViewController.swift */; };
 		F18E07411E03D20500F42A4C /* SpaceSizeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E07401E03D20500F42A4C /* SpaceSizeTool.swift */; };
+		F19273D01E24784000C21443 /* FloatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19273CF1E24784000C21443 /* FloatViewController.swift */; };
+		F19273D31E247E1500C21443 /* FMDBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19273D21E247E1500C21443 /* FMDBViewController.swift */; };
 		F198290F1D9A0898001C87FD /* CustomLayoutVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198290E1D9A0898001C87FD /* CustomLayoutVc.swift */; };
 		F19829111D9A096B001C87FD /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19829101D9A096B001C87FD /* CustomLayout.swift */; };
 		F19829131D9A1059001C87FD /* UICollectionGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19829121D9A1059001C87FD /* UICollectionGridViewController.swift */; };
@@ -380,6 +387,8 @@
 		F137D2441DFE701F006D8752 /* 计划_300x300_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "计划_300x300_@1x.png"; sourceTree = "<group>"; };
 		F137D2451DFE701F006D8752 /* 读书1_300x300_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "读书1_300x300_@1x.png"; sourceTree = "<group>"; };
 		F137D2951DFE707B006D8752 /* HeartAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartAnimationVC.swift; sourceTree = "<group>"; };
+		F1490B9B1E1B36FF001B2E16 /* CAShapeLayerDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAShapeLayerDemo.swift; sourceTree = "<group>"; };
+		F1490BE61E1BA20F001B2E16 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
 		F14973671E0373CE00549BFD /* PrintLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLogViewController.swift; sourceTree = "<group>"; };
 		F1529CAF1DDC500C00912F49 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
@@ -413,16 +422,22 @@
 		F1720B5A1D98FD7D00C62F50 /* TbaleViewRowHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TbaleViewRowHeight.swift; sourceTree = "<group>"; };
 		F1720B5C1D98FE1700C62F50 /* RowHeightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowHeightCell.swift; sourceTree = "<group>"; };
 		F1720B5D1D98FE1700C62F50 /* RowHeightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RowHeightCell.xib; sourceTree = "<group>"; };
-		F1720B601D99031D00C62F50 /* PSSwiftBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSSwiftBridge.h; sourceTree = "<group>"; };
 		F1720B611D99063600C62F50 /* 20160802144546260948.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20160802144546260948.jpeg; sourceTree = "<group>"; };
 		F1720B631D99090B00C62F50 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
 		F1720B641D99090B00C62F50 /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
 		F1720B651D99090B00C62F50 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
 		F1720B761D99183400C62F50 /* TableViewPullDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewPullDemo.swift; sourceTree = "<group>"; };
 		F1720B791D99293500C62F50 /* CollectionViewDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDemo.swift; sourceTree = "<group>"; };
+		F176A6CC1E25C8050076D301 /* MyCollectionViewVCCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewVCCollectionViewController.swift; sourceTree = "<group>"; };
+		F176A6CE1E25CF7C0076D301 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F176A6CF1E25CF7C0076D301 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		F186A48C1DEEDC740011F1CF /* UIViewPropertyAnimatorDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewPropertyAnimatorDemo.swift; sourceTree = "<group>"; };
 		F18E073E1E03D1AD00F42A4C /* GetSpaceSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSpaceSizeViewController.swift; sourceTree = "<group>"; };
 		F18E07401E03D20500F42A4C /* SpaceSizeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceSizeTool.swift; sourceTree = "<group>"; };
+		F19273CF1E24784000C21443 /* FloatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatViewController.swift; sourceTree = "<group>"; };
+		F19273D21E247E1500C21443 /* FMDBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBViewController.swift; sourceTree = "<group>"; };
+		F19273E51E24808C00C21443 /* PSSwiftBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSSwiftBridge.h; sourceTree = "<group>"; };
+		F19273F71E2484AB00C21443 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		F198290E1D9A0898001C87FD /* CustomLayoutVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLayoutVc.swift; sourceTree = "<group>"; };
 		F19829101D9A096B001C87FD /* CustomLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
 		F19829121D9A1059001C87FD /* UICollectionGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionGridViewController.swift; sourceTree = "<group>"; };
@@ -511,6 +526,7 @@
 		0EBDA20C4A392D1E0AB625E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F19273F71E2484AB00C21443 /* libsqlite3.0.tbd */,
 				B0888817545F8C9AA166153A /* Pods_PSSwift3_0Test.framework */,
 			);
 			name = Frameworks;
@@ -713,6 +729,22 @@
 			path = "40.仿京东心跳动画";
 			sourceTree = "<group>";
 		};
+		F1490B9A1E1B36F3001B2E16 /* 46. CAShapeLayer学习 */ = {
+			isa = PBXGroup;
+			children = (
+				F1490B9B1E1B36FF001B2E16 /* CAShapeLayerDemo.swift */,
+			);
+			path = "46. CAShapeLayer学习";
+			sourceTree = "<group>";
+		};
+		F1490BE51E1BA1FB001B2E16 /* 47.TestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1490BE61E1BA20F001B2E16 /* TestViewController.swift */,
+			);
+			path = 47.TestDemo;
+			sourceTree = "<group>";
+		};
 		F1492DAA1E08BFDE009137DA /* 45.Swift协议深入学习 */ = {
 			isa = PBXGroup;
 			children = (
@@ -780,6 +812,11 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F176A6C81E25C7BA0076D301 /* 50.collectionView间距1px */,
+				F19273D11E247E0C00C21443 /* 49.FMDB数据库操作 */,
+				F19273CE1E24783100C21443 /* 48.浮点数的求余,求模 */,
+				F1490BE51E1BA1FB001B2E16 /* 47.TestDemo */,
+				F1490B9A1E1B36F3001B2E16 /* 46. CAShapeLayer学习 */,
 				F1492DAA1E08BFDE009137DA /* 45.Swift协议深入学习 */,
 				F18E073D1E03D18800F42A4C /* 44.获取空间大小 */,
 				F14973661E0373AF00549BFD /* 43.封装打印日志信息 */,
@@ -830,7 +867,7 @@
 				F16CE77C1D97815700443625 /* AppDelegate.swift */,
 				F16CE7C91D97DABE00443625 /* ViewController.swift */,
 				F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */,
-				F1720B601D99031D00C62F50 /* PSSwiftBridge.h */,
+				F19273E51E24808C00C21443 /* PSSwiftBridge.h */,
 				F16CE7801D97815700443625 /* Main.storyboard */,
 				F16CE7831D97815700443625 /* Assets.xcassets */,
 				F16CE7851D97815700443625 /* LaunchScreen.storyboard */,
@@ -942,6 +979,16 @@
 			path = "06.UICollectionView基本使用";
 			sourceTree = "<group>";
 		};
+		F176A6C81E25C7BA0076D301 /* 50.collectionView间距1px */ = {
+			isa = PBXGroup;
+			children = (
+				F176A6CC1E25C8050076D301 /* MyCollectionViewVCCollectionViewController.swift */,
+				F176A6CE1E25CF7C0076D301 /* CollectionViewCell.swift */,
+				F176A6CF1E25CF7C0076D301 /* CollectionViewCell.xib */,
+			);
+			path = "50.collectionView间距1px";
+			sourceTree = "<group>";
+		};
 		F186A4891DEEDC3B0011F1CF /* 35. UIViewPropertyAnimator 做动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -958,6 +1005,22 @@
 				F18E07401E03D20500F42A4C /* SpaceSizeTool.swift */,
 			);
 			path = "44.获取空间大小";
+			sourceTree = "<group>";
+		};
+		F19273CE1E24783100C21443 /* 48.浮点数的求余,求模 */ = {
+			isa = PBXGroup;
+			children = (
+				F19273CF1E24784000C21443 /* FloatViewController.swift */,
+			);
+			path = "48.浮点数的求余,求模";
+			sourceTree = "<group>";
+		};
+		F19273D11E247E0C00C21443 /* 49.FMDB数据库操作 */ = {
+			isa = PBXGroup;
+			children = (
+				F19273D21E247E1500C21443 /* FMDBViewController.swift */,
+			);
+			path = "49.FMDB数据库操作";
 			sourceTree = "<group>";
 		};
 		F198290D1D9A0886001C87FD /* 07.CustomLayout实现复杂布局 */ = {
@@ -1363,6 +1426,7 @@
 				F137D2721DFE701F006D8752 /* SenderAppCardNodeBkg_66x54_@2x.png in Resources */,
 				F137D2611DFE701F006D8752 /* plan_norm_300x300_@1x.png in Resources */,
 				F137D24F1DFE701F006D8752 /* collection_nor_300x300_@1x.png in Resources */,
+				F176A6D11E25CF7C0076D301 /* CollectionViewCell.xib in Resources */,
 				F137D2461DFE701F006D8752 /* addplan_300x300_@1x.png in Resources */,
 				F1720B681D99090B00C62F50 /* img3.jpg in Resources */,
 				F1D4238E1D9B87BD005AA7CD /* stop.png in Resources */,
@@ -1512,8 +1576,10 @@
 				F10C979E1E026D51004EEBA0 /* PSPickView.swift in Sources */,
 				F1720B5B1D98FD7D00C62F50 /* TbaleViewRowHeight.swift in Sources */,
 				F14973681E0373CE00549BFD /* PrintLogViewController.swift in Sources */,
+				F1490B9C1E1B36FF001B2E16 /* CAShapeLayerDemo.swift in Sources */,
 				F198296C1D9A7542001C87FD /* DelegateDemo.swift in Sources */,
 				F1FD10501DCD95F500A42042 /* TimeLineViewController.swift in Sources */,
+				F19273D31E247E1500C21443 /* FMDBViewController.swift in Sources */,
 				F198291E1D9A4FBB001C87FD /* ScannerDemo.swift in Sources */,
 				F10D95F31DDE9CC400DE6218 /* ThreeLineView.swift in Sources */,
 				F186A48D1DEEDC740011F1CF /* UIViewPropertyAnimatorDemo.swift in Sources */,
@@ -1540,6 +1606,7 @@
 				F10E789E1DB73D60006F4A6D /* SearchController.swift in Sources */,
 				F1FD10521DCDCCA100A42042 /* TimeLineCell.swift in Sources */,
 				F1673BDC1DD0815A001E509B /* ImageBlureViewController.swift in Sources */,
+				F176A6CD1E25C8050076D301 /* MyCollectionViewVCCollectionViewController.swift in Sources */,
 				F1FC44251DF10A2900C9D805 /* DateViewController.swift in Sources */,
 				F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */,
 				F16CE7D31D97DABE00443625 /* ViewController.swift in Sources */,
@@ -1548,6 +1615,8 @@
 				F198290F1D9A0898001C87FD /* CustomLayoutVc.swift in Sources */,
 				F16CE7D41D97DABE00443625 /* ScrollViewDemo.swift in Sources */,
 				F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */,
+				F176A6D01E25CF7C0076D301 /* CollectionViewCell.swift in Sources */,
+				F19273D01E24784000C21443 /* FloatViewController.swift in Sources */,
 				F105C4A51DB9E647000998B6 /* StructViewController.swift in Sources */,
 				F1D423861D9B78B3005AA7CD /* UIWebViewDemo.swift in Sources */,
 				F1492DAC1E08BFF9009137DA /* ProtocolViewController.swift in Sources */,
@@ -1582,6 +1651,7 @@
 				F18E073F1E03D1AD00F42A4C /* GetSpaceSizeViewController.swift in Sources */,
 				F10D96001DDE9FD500DE6218 /* RoundView.swift in Sources */,
 				F1FC44211DF1010200C9D805 /* searchBarVC.swift in Sources */,
+				F1490BE71E1BA20F001B2E16 /* TestViewController.swift in Sources */,
 				F11BAA5B1DEFF2B90053768D /* self.view.swift in Sources */,
 				F112678B1DC979F500955BCC /* ColorViewController.swift in Sources */,
 				F198291B1D9A4A28001C87FD /* BUttonChangeTitleDemo.swift in Sources */,
@@ -1747,6 +1817,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/PSSwift3.0Test/31.Framework的制作与使用",
 				);
+				GCC_PREFIX_HEADER = PSSwift3.0Test/PSSwiftBridge.h;
 				INFOPLIST_FILE = PSSwift3.0Test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1768,6 +1839,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/PSSwift3.0Test/31.Framework的制作与使用",
 				);
+				GCC_PREFIX_HEADER = PSSwift3.0Test/PSSwiftBridge.h;
 				INFOPLIST_FILE = PSSwift3.0Test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

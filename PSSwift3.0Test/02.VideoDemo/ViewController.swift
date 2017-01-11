@@ -53,7 +53,12 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "41:自定义UIPickView",
                                "42:封装打印日志信息",
                                "43:获取空间大小",
-                               "44:Protocol的使用"
+                               "44:Protocol的使用",
+                               "45:CAShapeLayer学习",
+                               "46:基础练习",
+                               "47:浮点数的求余,求模",
+                               "48:FMDB数据库操作",
+                               "49:CollectionView间距1px"
                               ];
     let tableView = UITableView()
     
@@ -268,6 +273,26 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 43 {
             let protocolDemo  = ProtocolViewController()
             self.navigationController?.pushViewController(protocolDemo, animated: true)
+        }
+        if indexPath.row == 44 {
+            let caShapeLayerDemo  = CAShapeLayerDemo()
+            self.navigationController?.pushViewController(caShapeLayerDemo, animated: true)
+        }
+        if indexPath.row == 45 {
+            let testDemo  = TestViewController()
+            self.navigationController?.pushViewController(testDemo, animated: true)
+        }
+        if indexPath.row == 46 {
+            let floatDemo  = FloatViewController()
+            self.navigationController?.pushViewController(floatDemo, animated: true)
+        }
+        if indexPath.row == 47 {
+            let fmdbDemo  = FMDBViewController()
+            self.navigationController?.pushViewController(fmdbDemo, animated: true)
+        }
+        if indexPath.row == 48 {
+            let collectionViewDemo  = MyCollectionViewVCCollectionViewController()
+            self.navigationController?.pushViewController(collectionViewDemo, animated: true)
         }
     }
 }
