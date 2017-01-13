@@ -58,7 +58,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "46:基础练习",
                                "47:浮点数的求余,求模",
                                "48:FMDB数据库操作",
-                               "49:CollectionView间距1px"
+                               "49:CollectionView间距1px",
+                               "50:实现一个圆形数字标签组件"
                               ];
     let tableView = UITableView()
     
@@ -293,6 +294,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 48 {
             let collectionViewDemo  = MyCollectionViewVCCollectionViewController()
             self.navigationController?.pushViewController(collectionViewDemo, animated: true)
+        }
+        if indexPath.row == 49 {
+            let counterLabelDemo  = CounterLabelViewController()
+            self.navigationController?.pushViewController(counterLabelDemo, animated: true)
         }
     }
 }
