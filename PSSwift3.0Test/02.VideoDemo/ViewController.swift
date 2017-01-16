@@ -59,7 +59,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "47:浮点数的求余,求模",
                                "48:FMDB数据库操作",
                                "49:CollectionView间距1px",
-                               "50:实现一个圆形数字标签组件"
+                               "50:实现一个圆形数字标签组件",
+                               "51:Swift3隐藏状态栏"
                               ];
     let tableView = UITableView()
     
@@ -298,6 +299,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 49 {
             let counterLabelDemo  = CounterLabelViewController()
             self.navigationController?.pushViewController(counterLabelDemo, animated: true)
+        }
+        if indexPath.row == 50 {
+            let statuslDemo  = HideStatusViewController()
+            self.navigationController?.pushViewController(statuslDemo, animated: true)
         }
     }
 }

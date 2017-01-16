@@ -118,6 +118,7 @@
 		F1529CB21DDC517100912F49 /* PSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CB11DDC517100912F49 /* PSView.swift */; };
 		F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */; };
 		F15B16B71D9DF9600046142B /* SwiftyJSONTests.json in Resources */ = {isa = PBXBuildFile; fileRef = F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */; };
+		F163BE491E2C55D2008188F4 /* HideStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163BE481E2C55D2008188F4 /* HideStatusViewController.swift */; };
 		F1673BDC1DD0815A001E509B /* ImageBlureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1673BDB1DD0815A001E509B /* ImageBlureViewController.swift */; };
 		F16CE77D1D97815700443625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CE77C1D97815700443625 /* AppDelegate.swift */; };
 		F16CE7821D97815700443625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16CE7801D97815700443625 /* Main.storyboard */; };
@@ -397,6 +398,7 @@
 		F1529CB11DDC517100912F49 /* PSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSView.swift; sourceTree = "<group>"; };
 		F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJSONDemo.swift; sourceTree = "<group>"; };
 		F15B16B61D9DF9600046142B /* SwiftyJSONTests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SwiftyJSONTests.json; sourceTree = "<group>"; };
+		F163BE481E2C55D2008188F4 /* HideStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideStatusViewController.swift; sourceTree = "<group>"; };
 		F1673BDB1DD0815A001E509B /* ImageBlureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBlureViewController.swift; sourceTree = "<group>"; };
 		F16CE7791D97815700443625 /* PSSwift3.0Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSSwift3.0Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16CE77C1D97815700443625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -783,6 +785,14 @@
 			path = "19.数据解析转Model";
 			sourceTree = "<group>";
 		};
+		F163BE471E2C55C4008188F4 /* 52.Swift隐藏状态栏 */ = {
+			isa = PBXGroup;
+			children = (
+				F163BE481E2C55D2008188F4 /* HideStatusViewController.swift */,
+			);
+			path = "52.Swift隐藏状态栏";
+			sourceTree = "<group>";
+		};
 		F1673BDA1DD0813E001E509B /* 30.实现图片的模糊效果（高斯模糊滤镜） */ = {
 			isa = PBXGroup;
 			children = (
@@ -816,6 +826,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F163BE471E2C55C4008188F4 /* 52.Swift隐藏状态栏 */,
 				F1FF00231E28B8A600C0AC35 /* 51.圆形数字标签组件 */,
 				F176A6C81E25C7BA0076D301 /* 50.collectionView间距1px */,
 				F19273D11E247E0C00C21443 /* 49.FMDB数据库操作 */,
@@ -1648,6 +1659,7 @@
 				F1D9DD4A1E051D610093A3A5 /* String+Extenstion.swift in Sources */,
 				F18E07411E03D20500F42A4C /* SpaceSizeTool.swift in Sources */,
 				F16CE7D51D97DABE00443625 /* ScrollViewDemo1.swift in Sources */,
+				F163BE491E2C55D2008188F4 /* HideStatusViewController.swift in Sources */,
 				F10D95F11DDE9CC400DE6218 /* DottedView.swift in Sources */,
 				F1529CB21DDC517100912F49 /* PSView.swift in Sources */,
 				F1720B7A1D99293500C62F50 /* CollectionViewDemo.swift in Sources */,
