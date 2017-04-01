@@ -13,6 +13,9 @@
 		F10723E91DBDF1E800D1C357 /* MJRefreshDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10723E81DBDF1E800D1C357 /* MJRefreshDemo.swift */; };
 		F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */; };
 		F10A5A7E1D9B9FBC00EB2021 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */; };
+		F10ADD2D1E8F707B00E409BC /* StringPositionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10ADD2B1E8F707B00E409BC /* StringPositionVC.swift */; };
+		F10ADD2F1E8F709200E409BC /* StringDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10ADD2E1E8F709200E409BC /* StringDemo.swift */; };
+		F10ADD321E8F82AB00E409BC /* CollectionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10ADD311E8F82AB00E409BC /* CollectionDemo.swift */; };
 		F10C09991E554F4D00F8E3CF /* CMPendometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C09981E554F4D00F8E3CF /* CMPendometer.swift */; };
 		F10C979C1E026D00004EEBA0 /* PickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C979B1E026D00004EEBA0 /* PickViewController.swift */; };
 		F10C979E1E026D51004EEBA0 /* PSPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C979D1E026D51004EEBA0 /* PSPickView.swift */; };
@@ -150,7 +153,6 @@
 		F1720B681D99090B00C62F50 /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1720B651D99090B00C62F50 /* img3.jpg */; };
 		F1720B771D99183400C62F50 /* TableViewPullDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1720B761D99183400C62F50 /* TableViewPullDemo.swift */; };
 		F1720B7A1D99293500C62F50 /* CollectionViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1720B791D99293500C62F50 /* CollectionViewDemo.swift */; };
-		F17676FD1E8F3EEB001532B9 /* StringPositionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17676FC1E8F3EEB001532B9 /* StringPositionVC.swift */; };
 		F176A6CD1E25C8050076D301 /* MyCollectionViewVCCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176A6CC1E25C8050076D301 /* MyCollectionViewVCCollectionViewController.swift */; };
 		F176A6D01E25CF7C0076D301 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176A6CE1E25CF7C0076D301 /* CollectionViewCell.swift */; };
 		F176A6D11E25CF7C0076D301 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F176A6CF1E25CF7C0076D301 /* CollectionViewCell.xib */; };
@@ -303,6 +305,9 @@
 		F10723E81DBDF1E800D1C357 /* MJRefreshDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJRefreshDemo.swift; sourceTree = "<group>"; };
 		F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStepperDemo.swift; sourceTree = "<group>"; };
 		F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F10ADD2B1E8F707B00E409BC /* StringPositionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringPositionVC.swift; sourceTree = "<group>"; };
+		F10ADD2E1E8F709200E409BC /* StringDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringDemo.swift; sourceTree = "<group>"; };
+		F10ADD311E8F82AB00E409BC /* CollectionDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDemo.swift; sourceTree = "<group>"; };
 		F10C09981E554F4D00F8E3CF /* CMPendometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMPendometer.swift; sourceTree = "<group>"; };
 		F10C979B1E026D00004EEBA0 /* PickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickViewController.swift; sourceTree = "<group>"; };
 		F10C979D1E026D51004EEBA0 /* PSPickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSPickView.swift; sourceTree = "<group>"; };
@@ -444,7 +449,6 @@
 		F1720B651D99090B00C62F50 /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
 		F1720B761D99183400C62F50 /* TableViewPullDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewPullDemo.swift; sourceTree = "<group>"; };
 		F1720B791D99293500C62F50 /* CollectionViewDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDemo.swift; sourceTree = "<group>"; };
-		F17676FC1E8F3EEB001532B9 /* StringPositionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringPositionVC.swift; sourceTree = "<group>"; };
 		F176A6CC1E25C8050076D301 /* MyCollectionViewVCCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewVCCollectionViewController.swift; sourceTree = "<group>"; };
 		F176A6CE1E25CF7C0076D301 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		F176A6CF1E25CF7C0076D301 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
@@ -584,6 +588,30 @@
 				F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */,
 			);
 			path = "17. 微调器或叫步进器（UIStepper）的用法";
+			sourceTree = "<group>";
+		};
+		F10ADD2A1E8F707B00E409BC /* 59.在字符串中查找另一字符串首次出现的位置 */ = {
+			isa = PBXGroup;
+			children = (
+				F10ADD2B1E8F707B00E409BC /* StringPositionVC.swift */,
+			);
+			path = "59.在字符串中查找另一字符串首次出现的位置";
+			sourceTree = "<group>";
+		};
+		F10ADD2C1E8F707B00E409BC /* 60.字符和字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				F10ADD2E1E8F709200E409BC /* StringDemo.swift */,
+			);
+			path = "60.字符和字符串";
+			sourceTree = "<group>";
+		};
+		F10ADD301E8F829C00E409BC /* 61.集合类型 */ = {
+			isa = PBXGroup;
+			children = (
+				F10ADD311E8F82AB00E409BC /* CollectionDemo.swift */,
+			);
+			path = "61.集合类型";
 			sourceTree = "<group>";
 		};
 		F10C09971E554F1000F8E3CF /* 55.计步器CMPedometer的使用 */ = {
@@ -867,7 +895,9 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
-				F17676F81E8F3EC7001532B9 /* 59.在字符串中查找另一字符串首次出现的位置 */,
+				F10ADD301E8F829C00E409BC /* 61.集合类型 */,
+				F10ADD2C1E8F707B00E409BC /* 60.字符和字符串 */,
+				F10ADD2A1E8F707B00E409BC /* 59.在字符串中查找另一字符串首次出现的位置 */,
 				F1E445381E6903530068ACA5 /* 58.判断访问权限没有提示跳转到设置页 */,
 				F10F18321E6817DE00991B3F /* 57.UserDefaults的简洁使用 */,
 				F183D4F91E669B98001FD4A3 /* 56.设置UILabel、UITextView的文字行间距 */,
@@ -1041,15 +1071,6 @@
 				F1720B791D99293500C62F50 /* CollectionViewDemo.swift */,
 			);
 			path = "06.UICollectionView基本使用";
-			sourceTree = "<group>";
-		};
-		F17676F81E8F3EC7001532B9 /* 59.在字符串中查找另一字符串首次出现的位置 */ = {
-			isa = PBXGroup;
-			children = (
-				F17676FC1E8F3EEB001532B9 /* StringPositionVC.swift */,
-			);
-			name = "59.在字符串中查找另一字符串首次出现的位置";
-			path = "58.判断访问权限没有提示跳转到设置页/59.在字符串中查找另一字符串首次出现的位置";
 			sourceTree = "<group>";
 		};
 		F176A6C81E25C7BA0076D301 /* 50.collectionView间距1px */ = {
@@ -1674,11 +1695,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10ADD321E8F82AB00E409BC /* CollectionDemo.swift in Sources */,
 				F16CE7D21D97DABE00443625 /* VideoPLayDemo.swift in Sources */,
 				F13118F71E2DEF72006752F4 /* LocalizedViewController.swift in Sources */,
 				F1D9DD4B1E051D610093A3A5 /* UIColor+Extension.swift in Sources */,
 				F10A5A7E1D9B9FBC00EB2021 /* BaseViewController.swift in Sources */,
-				F17676FD1E8F3EEB001532B9 /* StringPositionVC.swift in Sources */,
+				F10ADD2D1E8F707B00E409BC /* StringPositionVC.swift in Sources */,
 				F12630131DD300FC00723309 /* ImageProcessor.swift in Sources */,
 				F1E4453A1E6903660068ACA5 /* JumpSettingVC.swift in Sources */,
 				F19829161D9A3B0C001C87FD /* UIBlurEffectDemo.swift in Sources */,
@@ -1729,6 +1751,7 @@
 				F198290F1D9A0898001C87FD /* CustomLayoutVc.swift in Sources */,
 				F16CE7D41D97DABE00443625 /* ScrollViewDemo.swift in Sources */,
 				F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */,
+				F10ADD2F1E8F709200E409BC /* StringDemo.swift in Sources */,
 				F176A6D01E25CF7C0076D301 /* CollectionViewCell.swift in Sources */,
 				F19273D01E24784000C21443 /* FloatViewController.swift in Sources */,
 				F105C4A51DB9E647000998B6 /* StructViewController.swift in Sources */,
