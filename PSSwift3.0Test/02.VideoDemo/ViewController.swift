@@ -60,7 +60,12 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "48:FMDB数据库操作",
                                "49:CollectionView间距1px",
                                "50:实现一个圆形数字标签组件",
-                               "51:Swift3隐藏状态栏"
+                               "51:Swift3隐藏状态栏",
+                               "52:使用ContactsUI访问通讯录",
+                               "53:计步器CMPedometer的使用",
+                               "54:设置UILabel、UITextView的文字行间距",
+                               "55:判断访问权限没有提示跳转到设置页",
+                               "56:在字符串中查找子串首次出现的位置"
                               ];
     let tableView = UITableView()
     
@@ -303,6 +308,26 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 50 {
             let statuslDemo  = HideStatusViewController()
             self.navigationController?.pushViewController(statuslDemo, animated: true)
+        }
+        if indexPath.row == 51 {
+            let contactDemo  = ContactViewController()
+            self.navigationController?.pushViewController(contactDemo, animated: true)
+        }
+        if indexPath.row == 52 {
+            let cmpendometerDemo  = CMPendometer()
+           self.navigationController?.pushViewController(cmpendometerDemo, animated: true)
+        }
+        if indexPath.row == 53 {
+            let textSpaceDemo  = TextLineSpaceVC()
+            self.navigationController?.pushViewController(textSpaceDemo, animated: true)
+        }
+        if indexPath.row == 54 {
+            let jumpSettingDemo  = JumpSettingVC()
+            self.navigationController?.pushViewController(jumpSettingDemo, animated: true)
+        }
+        if indexPath.row == 55 {
+            let stringPositionDemo  = StringPositionVC()
+            self.navigationController?.pushViewController(stringPositionDemo, animated: true)
         }
     }
 }
