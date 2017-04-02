@@ -67,7 +67,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "55:判断访问权限没有提示跳转到设置页",
                                "56:在字符串中查找子串首次出现的位置",
                                "57:字符和字符串的学习",
-                               "58:集合类型"
+                               "58:集合类型",
+                               "59:控制流"
                               ];
     let tableView = UITableView()
     
@@ -338,6 +339,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 57 {
             let collectionDemo  = CollectionDemo()
             self.navigationController?.pushViewController(collectionDemo, animated: true)
+        }
+        if indexPath.row == 58 {
+            let controlStreamDemo = ControlStreamVC()
+            self.navigationController?.pushViewController(controlStreamDemo, animated: true)
         }
     }
 }

@@ -11,6 +11,7 @@
 		F105AB881DF93B8B00FFFC42 /* ImageAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105AB871DF93B8B00FFFC42 /* ImageAnimationVC.swift */; };
 		F105C4A51DB9E647000998B6 /* StructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F105C4A41DB9E647000998B6 /* StructViewController.swift */; };
 		F10723E91DBDF1E800D1C357 /* MJRefreshDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10723E81DBDF1E800D1C357 /* MJRefreshDemo.swift */; };
+		F10862061E90DE640080E3D7 /* ControlStreamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10862051E90DE640080E3D7 /* ControlStreamVC.swift */; };
 		F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */; };
 		F10A5A7E1D9B9FBC00EB2021 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */; };
 		F10ADD2D1E8F707B00E409BC /* StringPositionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10ADD2B1E8F707B00E409BC /* StringPositionVC.swift */; };
@@ -303,6 +304,7 @@
 		F105AB871DF93B8B00FFFC42 /* ImageAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAnimationVC.swift; sourceTree = "<group>"; };
 		F105C4A41DB9E647000998B6 /* StructViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructViewController.swift; sourceTree = "<group>"; };
 		F10723E81DBDF1E800D1C357 /* MJRefreshDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJRefreshDemo.swift; sourceTree = "<group>"; };
+		F10862051E90DE640080E3D7 /* ControlStreamVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlStreamVC.swift; sourceTree = "<group>"; };
 		F10A5A7B1D9B9FB300EB2021 /* UIStepperDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStepperDemo.swift; sourceTree = "<group>"; };
 		F10A5A7D1D9B9FBC00EB2021 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		F10ADD2B1E8F707B00E409BC /* StringPositionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringPositionVC.swift; sourceTree = "<group>"; };
@@ -580,6 +582,14 @@
 				F10723E81DBDF1E800D1C357 /* MJRefreshDemo.swift */,
 			);
 			path = "26.MJRefresh的使用";
+			sourceTree = "<group>";
+		};
+		F10862041E90DE0F0080E3D7 /* 62.控制流 */ = {
+			isa = PBXGroup;
+			children = (
+				F10862051E90DE640080E3D7 /* ControlStreamVC.swift */,
+			);
+			path = "62.控制流";
 			sourceTree = "<group>";
 		};
 		F10A5A7A1D9B9F9A00EB2021 /* 17. 微调器或叫步进器（UIStepper）的用法 */ = {
@@ -895,6 +905,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F10862041E90DE0F0080E3D7 /* 62.控制流 */,
 				F10ADD301E8F829C00E409BC /* 61.集合类型 */,
 				F10ADD2C1E8F707B00E409BC /* 60.字符和字符串 */,
 				F10ADD2A1E8F707B00E409BC /* 59.在字符串中查找另一字符串首次出现的位置 */,
@@ -1764,6 +1775,7 @@
 				F1D4237D1D9B4590005AA7CD /* OpenUrlDemo.swift in Sources */,
 				F1FB39621E010EF3009AD8EB /* PresentVC.swift in Sources */,
 				F19829131D9A1059001C87FD /* UICollectionGridViewController.swift in Sources */,
+				F10862061E90DE640080E3D7 /* ControlStreamVC.swift in Sources */,
 				F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */,
 				F10D95F01DDE9CC400DE6218 /* CoreGraphicsViewController.swift in Sources */,
 				F10D95EF1DDE9CC400DE6218 /* CirculeView.swift in Sources */,
