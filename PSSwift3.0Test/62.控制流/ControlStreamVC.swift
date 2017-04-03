@@ -8,6 +8,13 @@
 
 import UIKit
 
+// 枚举的简单使用
+enum Type {
+    case a
+    case b
+    case c
+}
+
 class ControlStreamVC: BaseViewController {
 
     override func viewDidLoad() {
