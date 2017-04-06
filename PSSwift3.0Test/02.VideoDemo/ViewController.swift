@@ -68,7 +68,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "56:在字符串中查找子串首次出现的位置",
                                "57:字符和字符串的学习",
                                "58:集合类型",
-                               "59:控制流"
+                               "59:控制流",
+                               "60:实现URL字符串的编码与解码"
                               ];
     let tableView = UITableView()
     
@@ -343,6 +344,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 58 {
             let controlStreamDemo = ControlStreamVC()
             self.navigationController?.pushViewController(controlStreamDemo, animated: true)
+        }
+        if indexPath.row == 59 {
+            let urlCodeDemo = UrlCodeViewController()
+            self.navigationController?.pushViewController(urlCodeDemo, animated: true)
         }
     }
 }

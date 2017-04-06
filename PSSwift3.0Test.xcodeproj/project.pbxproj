@@ -118,6 +118,7 @@
 		F137D28F1DFE701F006D8752 /* 计划_300x300_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F137D2441DFE701F006D8752 /* 计划_300x300_@1x.png */; };
 		F137D2901DFE701F006D8752 /* 读书1_300x300_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F137D2451DFE701F006D8752 /* 读书1_300x300_@1x.png */; };
 		F137D2961DFE707B006D8752 /* HeartAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F137D2951DFE707B006D8752 /* HeartAnimationVC.swift */; };
+		F13E90A71E933C3800778C81 /* AttrTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E90A61E933C3800778C81 /* AttrTextView.swift */; };
 		F1490B9C1E1B36FF001B2E16 /* CAShapeLayerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1490B9B1E1B36FF001B2E16 /* CAShapeLayerDemo.swift */; };
 		F1490BE71E1BA20F001B2E16 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1490BE61E1BA20F001B2E16 /* TestViewController.swift */; };
 		F1492DAC1E08BFF9009137DA /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */; };
@@ -174,9 +175,11 @@
 		F198296E1D9A75C6001C87FD /* DelegateDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198296D1D9A75C6001C87FD /* DelegateDemo1.swift */; };
 		F19829711D9A7B78001C87FD /* SingleInstanceDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19829701D9A7B78001C87FD /* SingleInstanceDemo.swift */; };
 		F19829731D9A7BCE001C87FD /* APPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19829721D9A7BCE001C87FD /* APPManager.swift */; };
+		F1CAE7801E9284F7003C1ABF /* AttributeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CAE77F1E9284F7003C1ABF /* AttributeVC.swift */; };
 		F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22A1DA89CC100309240 /* ModifierViewController.swift */; };
 		F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */; };
 		F1CBE22F1DA8B5F500309240 /* NewPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */; };
+		F1CECB641E95E2E400ACB567 /* UrlCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CECB631E95E2E400ACB567 /* UrlCodeViewController.swift */; };
 		F1D4237D1D9B4590005AA7CD /* OpenUrlDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4237C1D9B4590005AA7CD /* OpenUrlDemo.swift */; };
 		F1D423801D9B4E64005AA7CD /* SelectCellExpandDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4237F1D9B4E64005AA7CD /* SelectCellExpandDemo.swift */; };
 		F1D423831D9B634D005AA7CD /* GCDDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D423821D9B634D005AA7CD /* GCDDemo.swift */; };
@@ -409,6 +412,7 @@
 		F137D2441DFE701F006D8752 /* 计划_300x300_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "计划_300x300_@1x.png"; sourceTree = "<group>"; };
 		F137D2451DFE701F006D8752 /* 读书1_300x300_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "读书1_300x300_@1x.png"; sourceTree = "<group>"; };
 		F137D2951DFE707B006D8752 /* HeartAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartAnimationVC.swift; sourceTree = "<group>"; };
+		F13E90A61E933C3800778C81 /* AttrTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttrTextView.swift; sourceTree = "<group>"; };
 		F1490B9B1E1B36FF001B2E16 /* CAShapeLayerDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAShapeLayerDemo.swift; sourceTree = "<group>"; };
 		F1490BE61E1BA20F001B2E16 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
@@ -473,8 +477,10 @@
 		F198296D1D9A75C6001C87FD /* DelegateDemo1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateDemo1.swift; sourceTree = "<group>"; };
 		F19829701D9A7B78001C87FD /* SingleInstanceDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleInstanceDemo.swift; sourceTree = "<group>"; };
 		F19829721D9A7BCE001C87FD /* APPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPManager.swift; sourceTree = "<group>"; };
+		F1CAE77F1E9284F7003C1ABF /* AttributeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeVC.swift; sourceTree = "<group>"; };
 		F1CBE22A1DA89CC100309240 /* ModifierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierViewController.swift; sourceTree = "<group>"; };
 		F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPointViewController.swift; sourceTree = "<group>"; };
+		F1CECB631E95E2E400ACB567 /* UrlCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlCodeViewController.swift; sourceTree = "<group>"; };
 		F1D4237C1D9B4590005AA7CD /* OpenUrlDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenUrlDemo.swift; sourceTree = "<group>"; };
 		F1D4237F1D9B4E64005AA7CD /* SelectCellExpandDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCellExpandDemo.swift; sourceTree = "<group>"; };
 		F1D423821D9B634D005AA7CD /* GCDDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDDemo.swift; sourceTree = "<group>"; };
@@ -905,6 +911,8 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1CECB621E95E2C000ACB567 /* 64.实现URL字符串的编码与解码 */,
+				F1CAE77E1E9284D6003C1ABF /* 63.可点击 @、# 标记文本实现 */,
 				F10862041E90DE0F0080E3D7 /* 62.控制流 */,
 				F10ADD301E8F829C00E409BC /* 61.集合类型 */,
 				F10ADD2C1E8F707B00E409BC /* 60.字符和字符串 */,
@@ -1196,6 +1204,15 @@
 			path = "12.单例的使用";
 			sourceTree = "<group>";
 		};
+		F1CAE77E1E9284D6003C1ABF /* 63.可点击 @、# 标记文本实现 */ = {
+			isa = PBXGroup;
+			children = (
+				F1CAE77F1E9284F7003C1ABF /* AttributeVC.swift */,
+				F13E90A61E933C3800778C81 /* AttrTextView.swift */,
+			);
+			path = "63.可点击 @、# 标记文本实现";
+			sourceTree = "<group>";
+		};
 		F1CBE2221DA89C8500309240 /* 21.修饰符的学习 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1210,6 +1227,14 @@
 				F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */,
 			);
 			path = "22.Swift3新特性汇总";
+			sourceTree = "<group>";
+		};
+		F1CECB621E95E2C000ACB567 /* 64.实现URL字符串的编码与解码 */ = {
+			isa = PBXGroup;
+			children = (
+				F1CECB631E95E2E400ACB567 /* UrlCodeViewController.swift */,
+			);
+			path = "64.实现URL字符串的编码与解码";
 			sourceTree = "<group>";
 		};
 		F1D4237B1D9B4577005AA7CD /* 13.通过url地址打开web页面 */ = {
@@ -1737,6 +1762,7 @@
 				F10D95F21DDE9CC400DE6218 /* LineView.swift in Sources */,
 				F16CE7CF1D97DABE00443625 /* VideoCell.swift in Sources */,
 				F183D4FB1E669BBC001FD4A3 /* TextLineSpaceVC.swift in Sources */,
+				F1CAE7801E9284F7003C1ABF /* AttributeVC.swift in Sources */,
 				F137D2961DFE707B006D8752 /* HeartAnimationVC.swift in Sources */,
 				F105AB881DF93B8B00FFFC42 /* ImageAnimationVC.swift in Sources */,
 				F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */,
@@ -1745,6 +1771,7 @@
 				F1720B771D99183400C62F50 /* TableViewPullDemo.swift in Sources */,
 				F19829111D9A096B001C87FD /* CustomLayout.swift in Sources */,
 				F10723E91DBDF1E800D1C357 /* MJRefreshDemo.swift in Sources */,
+				F13E90A71E933C3800778C81 /* AttrTextView.swift in Sources */,
 				F10D95FA1DDE9D3700DE6218 /* CoreGraphicsViewController2.swift in Sources */,
 				F1E8C51D1DB8598E00C767F1 /* PasssValueViewController.swift in Sources */,
 				F16CE77D1D97815700443625 /* AppDelegate.swift in Sources */,
@@ -1779,6 +1806,7 @@
 				F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */,
 				F10D95F01DDE9CC400DE6218 /* CoreGraphicsViewController.swift in Sources */,
 				F10D95EF1DDE9CC400DE6218 /* CirculeView.swift in Sources */,
+				F1CECB641E95E2E400ACB567 /* UrlCodeViewController.swift in Sources */,
 				F1D9DD4A1E051D610093A3A5 /* String+Extenstion.swift in Sources */,
 				F18E07411E03D20500F42A4C /* SpaceSizeTool.swift in Sources */,
 				F16CE7D51D97DABE00443625 /* ScrollViewDemo1.swift in Sources */,
