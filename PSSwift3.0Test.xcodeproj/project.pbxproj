@@ -179,6 +179,8 @@
 		F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22A1DA89CC100309240 /* ModifierViewController.swift */; };
 		F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */; };
 		F1CBE22F1DA8B5F500309240 /* NewPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */; };
+		F1CD5F7C1E98A982002849DC /* TextFieldAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD5F7B1E98A982002849DC /* TextFieldAddVC.swift */; };
+		F1CD5F7E1E98CEE7002849DC /* TextFieldAddVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CD5F7D1E98CEE7002849DC /* TextFieldAddVC.storyboard */; };
 		F1CECB641E95E2E400ACB567 /* UrlCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CECB631E95E2E400ACB567 /* UrlCodeViewController.swift */; };
 		F1D4237D1D9B4590005AA7CD /* OpenUrlDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4237C1D9B4590005AA7CD /* OpenUrlDemo.swift */; };
 		F1D423801D9B4E64005AA7CD /* SelectCellExpandDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D4237F1D9B4E64005AA7CD /* SelectCellExpandDemo.swift */; };
@@ -480,6 +482,8 @@
 		F1CAE77F1E9284F7003C1ABF /* AttributeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeVC.swift; sourceTree = "<group>"; };
 		F1CBE22A1DA89CC100309240 /* ModifierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierViewController.swift; sourceTree = "<group>"; };
 		F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPointViewController.swift; sourceTree = "<group>"; };
+		F1CD5F7B1E98A982002849DC /* TextFieldAddVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldAddVC.swift; sourceTree = "<group>"; };
+		F1CD5F7D1E98CEE7002849DC /* TextFieldAddVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TextFieldAddVC.storyboard; sourceTree = "<group>"; };
 		F1CECB631E95E2E400ACB567 /* UrlCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlCodeViewController.swift; sourceTree = "<group>"; };
 		F1D4237C1D9B4590005AA7CD /* OpenUrlDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenUrlDemo.swift; sourceTree = "<group>"; };
 		F1D4237F1D9B4E64005AA7CD /* SelectCellExpandDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCellExpandDemo.swift; sourceTree = "<group>"; };
@@ -725,6 +729,7 @@
 		F13118F51E2DEF38006752F4 /* 53.Swift3.0国际化语言 */ = {
 			isa = PBXGroup;
 			children = (
+				F137D2911DFE7042006D8752 /* 40.仿京东心跳动画 */,
 				F13118F61E2DEF72006752F4 /* LocalizedViewController.swift */,
 			);
 			path = "53.Swift3.0国际化语言";
@@ -817,7 +822,8 @@
 			children = (
 				F137D2951DFE707B006D8752 /* HeartAnimationVC.swift */,
 			);
-			path = "40.仿京东心跳动画";
+			name = "40.仿京东心跳动画";
+			path = "../40.仿京东心跳动画";
 			sourceTree = "<group>";
 		};
 		F1490B9A1E1B36F3001B2E16 /* 46. CAShapeLayer学习 */ = {
@@ -911,6 +917,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1CD5F7A1E98A95B002849DC /* 65.实现键盘上添加视图 */,
 				F1CECB621E95E2C000ACB567 /* 64.实现URL字符串的编码与解码 */,
 				F1CAE77E1E9284D6003C1ABF /* 63.可点击 @、# 标记文本实现 */,
 				F10862041E90DE0F0080E3D7 /* 62.控制流 */,
@@ -935,7 +942,6 @@
 				F14973661E0373AF00549BFD /* 43.封装打印日志信息 */,
 				F10C979A1E026CE8004EEBA0 /* 42.自定义UIPickView */,
 				F1FB39601E010EE3009AD8EB /* 41.PresentVCDemo */,
-				F137D2911DFE7042006D8752 /* 40.仿京东心跳动画 */,
 				F105AB861DF93B4600FFFC42 /* 39.多图片动画效果 */,
 				F1FC44231DF10A1D00C9D805 /* 38.日期比较 */,
 				F11BAA5D1DF028FB0053768D /* 37.UISearchBar */,
@@ -1227,6 +1233,15 @@
 				F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */,
 			);
 			path = "22.Swift3新特性汇总";
+			sourceTree = "<group>";
+		};
+		F1CD5F7A1E98A95B002849DC /* 65.实现键盘上添加视图 */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD5F7B1E98A982002849DC /* TextFieldAddVC.swift */,
+				F1CD5F7D1E98CEE7002849DC /* TextFieldAddVC.storyboard */,
+			);
+			path = "65.实现键盘上添加视图";
 			sourceTree = "<group>";
 		};
 		F1CECB621E95E2C000ACB567 /* 64.实现URL字符串的编码与解码 */ = {
@@ -1593,6 +1608,7 @@
 				F137D2461DFE701F006D8752 /* addplan_300x300_@1x.png in Resources */,
 				F1720B681D99090B00C62F50 /* img3.jpg in Resources */,
 				F1D4238E1D9B87BD005AA7CD /* stop.png in Resources */,
+				F1CD5F7E1E98CEE7002849DC /* TextFieldAddVC.storyboard in Resources */,
 				F137D2631DFE701F006D8752 /* plan_sel_300x300_@1x.png in Resources */,
 				F137D24A1DFE701F006D8752 /* barbuttonicon_add_30x30_@3x.png in Resources */,
 				F137D2591DFE701F006D8752 /* iconfont-empty_128x128_@1x.png in Resources */,
@@ -1805,6 +1821,7 @@
 				F10862061E90DE640080E3D7 /* ControlStreamVC.swift in Sources */,
 				F1E8C51F1DB8599600C767F1 /* SubViewController.swift in Sources */,
 				F10D95F01DDE9CC400DE6218 /* CoreGraphicsViewController.swift in Sources */,
+				F1CD5F7C1E98A982002849DC /* TextFieldAddVC.swift in Sources */,
 				F10D95EF1DDE9CC400DE6218 /* CirculeView.swift in Sources */,
 				F1CECB641E95E2E400ACB567 /* UrlCodeViewController.swift in Sources */,
 				F1D9DD4A1E051D610093A3A5 /* String+Extenstion.swift in Sources */,

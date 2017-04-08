@@ -69,7 +69,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "57:字符和字符串的学习",
                                "58:集合类型",
                                "59:控制流",
-                               "60:实现URL字符串的编码与解码"
+                               "60:实现URL字符串的编码与解码",
+                               "61:实现键盘上添加视图"
                               ];
     let tableView = UITableView()
     
@@ -348,6 +349,16 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 59 {
             let urlCodeDemo = UrlCodeViewController()
             self.navigationController?.pushViewController(urlCodeDemo, animated: true)
+        }
+        if indexPath.row == 60 {
+            
+//            let sb = UIStoryboard(name: "TextFieldAddVC", bundle: nil)
+//            let tfAddViewDemo = TextFieldAddVC()
+            
+            // 跳转至storyBoard界面
+            let tfAddViewDemo = UIStoryboard(name: "TextFieldAddVC", bundle: nil)
+                .instantiateViewController(withIdentifier: "RootView") as! TextFieldAddVC
+            self.navigationController?.pushViewController(tfAddViewDemo, animated: true)
         }
     }
 }

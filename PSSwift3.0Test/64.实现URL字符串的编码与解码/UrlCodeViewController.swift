@@ -17,6 +17,22 @@ class UrlCodeViewController: BaseViewController {
         let urlStr = "http://www.combanc.com?name=思思&key=!*'();:@&=+$,/?%#[]"
         print("转义后的url：\(urlStr.urlEncoded())")
         print("还原后的url：\(urlStr.urlEncoded().urlDecoded())")
+        
+        // 记录最大数字的种类(kind)，同时仍然记录这个最大数字的值
+        let interestingNumbers = ["prime": [2,3,4,5,9],
+                                  "fibonacci": [1,3,4,6],
+                                  "square": [4,6,7,9]]
+        var larger: Int = 0
+        var kind: String = ""
+        for (kinds, numbers) in interestingNumbers {
+            for number in numbers {
+                if number > larger {
+                    larger = number;
+                    kind = kinds
+                }
+            }
+        }
+        print("kind = \(kind) number = \(larger)")
     }
 }
 
