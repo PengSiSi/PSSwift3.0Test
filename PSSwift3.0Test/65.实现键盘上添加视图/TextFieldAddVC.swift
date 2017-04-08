@@ -43,6 +43,9 @@ class TextFieldAddVC: BaseViewController {
         toolBar.items = [inputItem, sendItem]
         //赋值给UITextField的inputAccessoryView
         myTextView?.inputAccessoryView = toolBar
+
+        // 注意:inputView会不在键盘之上,也不会和键盘一起联动效果,大家可以试试看效果哟.
+//        myTextView?.inputView = toolBar
     }
     
     func handleSend(event: UIButton) {
