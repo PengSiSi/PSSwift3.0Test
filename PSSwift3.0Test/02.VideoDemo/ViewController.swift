@@ -71,7 +71,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "59:控制流",
                                "60:实现URL字符串的编码与解码",
                                "61:实现键盘上添加视图",
-                               "62:图片的生成和实现"
+                               "62:图片的生成和实现",
+                               "63:构造过程",
+                               "64:自动引用计数"
+        
                               ];
     let tableView = UITableView()
     
@@ -364,6 +367,14 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 61 {
             let imageDemo = ImageViewController()
             self.navigationController?.pushViewController(imageDemo, animated: true)
+        }
+        if indexPath.row == 62 {
+            let constructorsDemo = ConstructorVC()
+            self.navigationController?.pushViewController(constructorsDemo, animated: true)
+        }
+        if indexPath.row == 63 {
+            let automCountDemo = AutomCountViewController()
+            self.navigationController?.pushViewController(automCountDemo, animated: true)
         }
     }
 }

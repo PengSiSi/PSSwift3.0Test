@@ -124,6 +124,8 @@
 		F1492DAC1E08BFF9009137DA /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */; };
 		F14973681E0373CE00549BFD /* PrintLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14973671E0373CE00549BFD /* PrintLogViewController.swift */; };
 		F14E76D21E9B33F300E19BCA /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14E76D11E9B33F300E19BCA /* ImageViewController.swift */; };
+		F14E76D71E9B53A100E19BCA /* ConstructorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14E76D61E9B53A100E19BCA /* ConstructorVC.swift */; };
+		F14E76DA1E9B5DB800E19BCA /* AutomCountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14E76D91E9B5DB800E19BCA /* AutomCountViewController.swift */; };
 		F1529CB01DDC500C00912F49 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CAF1DDC500C00912F49 /* DrawViewController.swift */; };
 		F1529CB21DDC517100912F49 /* PSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CB11DDC517100912F49 /* PSView.swift */; };
 		F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */; };
@@ -421,6 +423,8 @@
 		F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
 		F14973671E0373CE00549BFD /* PrintLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLogViewController.swift; sourceTree = "<group>"; };
 		F14E76D11E9B33F300E19BCA /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		F14E76D61E9B53A100E19BCA /* ConstructorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstructorVC.swift; sourceTree = "<group>"; };
+		F14E76D91E9B5DB800E19BCA /* AutomCountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomCountViewController.swift; sourceTree = "<group>"; };
 		F1529CAF1DDC500C00912F49 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		F1529CB11DDC517100912F49 /* PSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSView.swift; sourceTree = "<group>"; };
 		F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJSONDemo.swift; sourceTree = "<group>"; };
@@ -868,6 +872,22 @@
 			path = "66.图片的生成和实现";
 			sourceTree = "<group>";
 		};
+		F14E76D51E9B536F00E19BCA /* 67.构造过程 */ = {
+			isa = PBXGroup;
+			children = (
+				F14E76D61E9B53A100E19BCA /* ConstructorVC.swift */,
+			);
+			path = "67.构造过程";
+			sourceTree = "<group>";
+		};
+		F14E76D81E9B5DAD00E19BCA /* 68.自动引用计数 */ = {
+			isa = PBXGroup;
+			children = (
+				F14E76D91E9B5DB800E19BCA /* AutomCountViewController.swift */,
+			);
+			path = "68.自动引用计数";
+			sourceTree = "<group>";
+		};
 		F1529CAE1DDC4FF900912F49 /* 32.继承UIView，重写drawRect */ = {
 			isa = PBXGroup;
 			children = (
@@ -927,6 +947,8 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F14E76D81E9B5DAD00E19BCA /* 68.自动引用计数 */,
+				F14E76D51E9B536F00E19BCA /* 67.构造过程 */,
 				F14E76D01E9B33D900E19BCA /* 66.图片的生成和实现 */,
 				F1CD5F7A1E98A95B002849DC /* 65.实现键盘上添加视图 */,
 				F1CECB621E95E2C000ACB567 /* 64.实现URL字符串的编码与解码 */,
@@ -1771,6 +1793,7 @@
 				F10C979E1E026D51004EEBA0 /* PSPickView.swift in Sources */,
 				F1720B5B1D98FD7D00C62F50 /* TbaleViewRowHeight.swift in Sources */,
 				F14973681E0373CE00549BFD /* PrintLogViewController.swift in Sources */,
+				F14E76D71E9B53A100E19BCA /* ConstructorVC.swift in Sources */,
 				F1490B9C1E1B36FF001B2E16 /* CAShapeLayerDemo.swift in Sources */,
 				F10F18371E6817F500991B3F /* UserDefaultsDemo.swift in Sources */,
 				F198296C1D9A7542001C87FD /* DelegateDemo.swift in Sources */,
@@ -1784,6 +1807,7 @@
 				F10D95FC1DDE9DC200DE6218 /* RectView.swift in Sources */,
 				F1FEB7901D9F33AC00C7A496 /* SnapKitDemo.swift in Sources */,
 				F19829731D9A7BCE001C87FD /* APPManager.swift in Sources */,
+				F14E76DA1E9B5DB800E19BCA /* AutomCountViewController.swift in Sources */,
 				F1DE330F1D9DED7900C14754 /* SDBrowserImageView.m in Sources */,
 				F1D9DD4C1E051D610093A3A5 /* UIView+Extension.swift in Sources */,
 				F10D95F21DDE9CC400DE6218 /* LineView.swift in Sources */,
