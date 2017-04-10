@@ -70,7 +70,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "58:集合类型",
                                "59:控制流",
                                "60:实现URL字符串的编码与解码",
-                               "61:实现键盘上添加视图"
+                               "61:实现键盘上添加视图",
+                               "62:图片的生成和实现"
                               ];
     let tableView = UITableView()
     
@@ -359,6 +360,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             let tfAddViewDemo = UIStoryboard(name: "TextFieldAddVC", bundle: nil)
                 .instantiateViewController(withIdentifier: "RootView") as! TextFieldAddVC
             self.navigationController?.pushViewController(tfAddViewDemo, animated: true)
+        }
+        if indexPath.row == 61 {
+            let imageDemo = ImageViewController()
+            self.navigationController?.pushViewController(imageDemo, animated: true)
         }
     }
 }

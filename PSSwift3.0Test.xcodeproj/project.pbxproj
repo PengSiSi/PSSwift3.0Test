@@ -123,6 +123,7 @@
 		F1490BE71E1BA20F001B2E16 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1490BE61E1BA20F001B2E16 /* TestViewController.swift */; };
 		F1492DAC1E08BFF9009137DA /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */; };
 		F14973681E0373CE00549BFD /* PrintLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14973671E0373CE00549BFD /* PrintLogViewController.swift */; };
+		F14E76D21E9B33F300E19BCA /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14E76D11E9B33F300E19BCA /* ImageViewController.swift */; };
 		F1529CB01DDC500C00912F49 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CAF1DDC500C00912F49 /* DrawViewController.swift */; };
 		F1529CB21DDC517100912F49 /* PSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CB11DDC517100912F49 /* PSView.swift */; };
 		F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */; };
@@ -419,6 +420,7 @@
 		F1490BE61E1BA20F001B2E16 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
 		F14973671E0373CE00549BFD /* PrintLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLogViewController.swift; sourceTree = "<group>"; };
+		F14E76D11E9B33F300E19BCA /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		F1529CAF1DDC500C00912F49 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		F1529CB11DDC517100912F49 /* PSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSView.swift; sourceTree = "<group>"; };
 		F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJSONDemo.swift; sourceTree = "<group>"; };
@@ -858,6 +860,14 @@
 			path = "43.封装打印日志信息";
 			sourceTree = "<group>";
 		};
+		F14E76D01E9B33D900E19BCA /* 66.图片的生成和实现 */ = {
+			isa = PBXGroup;
+			children = (
+				F14E76D11E9B33F300E19BCA /* ImageViewController.swift */,
+			);
+			path = "66.图片的生成和实现";
+			sourceTree = "<group>";
+		};
 		F1529CAE1DDC4FF900912F49 /* 32.继承UIView，重写drawRect */ = {
 			isa = PBXGroup;
 			children = (
@@ -917,6 +927,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F14E76D01E9B33D900E19BCA /* 66.图片的生成和实现 */,
 				F1CD5F7A1E98A95B002849DC /* 65.实现键盘上添加视图 */,
 				F1CECB621E95E2C000ACB567 /* 64.实现URL字符串的编码与解码 */,
 				F1CAE77E1E9284D6003C1ABF /* 63.可点击 @、# 标记文本实现 */,
@@ -1722,7 +1733,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		CCE129718934B860C9593195 /* [CP] Embed Pods Frameworks */ = {
@@ -1777,6 +1788,7 @@
 				F1D9DD4C1E051D610093A3A5 /* UIView+Extension.swift in Sources */,
 				F10D95F21DDE9CC400DE6218 /* LineView.swift in Sources */,
 				F16CE7CF1D97DABE00443625 /* VideoCell.swift in Sources */,
+				F14E76D21E9B33F300E19BCA /* ImageViewController.swift in Sources */,
 				F183D4FB1E669BBC001FD4A3 /* TextLineSpaceVC.swift in Sources */,
 				F1CAE7801E9284F7003C1ABF /* AttributeVC.swift in Sources */,
 				F137D2961DFE707B006D8752 /* HeartAnimationVC.swift in Sources */,
