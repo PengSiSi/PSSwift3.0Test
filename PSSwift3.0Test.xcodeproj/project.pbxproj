@@ -126,6 +126,7 @@
 		F14E76D21E9B33F300E19BCA /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14E76D11E9B33F300E19BCA /* ImageViewController.swift */; };
 		F14E76D71E9B53A100E19BCA /* ConstructorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14E76D61E9B53A100E19BCA /* ConstructorVC.swift */; };
 		F14E76DA1E9B5DB800E19BCA /* AutomCountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14E76D91E9B5DB800E19BCA /* AutomCountViewController.swift */; };
+		F14E76DD1E9B69BC00E19BCA /* OptionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14E76DC1E9B69BC00E19BCA /* OptionalViewController.swift */; };
 		F1529CB01DDC500C00912F49 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CAF1DDC500C00912F49 /* DrawViewController.swift */; };
 		F1529CB21DDC517100912F49 /* PSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1529CB11DDC517100912F49 /* PSView.swift */; };
 		F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */; };
@@ -425,6 +426,7 @@
 		F14E76D11E9B33F300E19BCA /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		F14E76D61E9B53A100E19BCA /* ConstructorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstructorVC.swift; sourceTree = "<group>"; };
 		F14E76D91E9B5DB800E19BCA /* AutomCountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomCountViewController.swift; sourceTree = "<group>"; };
+		F14E76DC1E9B69BC00E19BCA /* OptionalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalViewController.swift; sourceTree = "<group>"; };
 		F1529CAF1DDC500C00912F49 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		F1529CB11DDC517100912F49 /* PSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSView.swift; sourceTree = "<group>"; };
 		F15B16B41D9DF8D50046142B /* SwiftJSONDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJSONDemo.swift; sourceTree = "<group>"; };
@@ -888,6 +890,14 @@
 			path = "68.自动引用计数";
 			sourceTree = "<group>";
 		};
+		F14E76DB1E9B69B400E19BCA /* 69.可选链 */ = {
+			isa = PBXGroup;
+			children = (
+				F14E76DC1E9B69BC00E19BCA /* OptionalViewController.swift */,
+			);
+			path = "69.可选链";
+			sourceTree = "<group>";
+		};
 		F1529CAE1DDC4FF900912F49 /* 32.继承UIView，重写drawRect */ = {
 			isa = PBXGroup;
 			children = (
@@ -947,6 +957,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F14E76DB1E9B69B400E19BCA /* 69.可选链 */,
 				F14E76D81E9B5DAD00E19BCA /* 68.自动引用计数 */,
 				F14E76D51E9B536F00E19BCA /* 67.构造过程 */,
 				F14E76D01E9B33D900E19BCA /* 66.图片的生成和实现 */,
@@ -1816,6 +1827,7 @@
 				F183D4FB1E669BBC001FD4A3 /* TextLineSpaceVC.swift in Sources */,
 				F1CAE7801E9284F7003C1ABF /* AttributeVC.swift in Sources */,
 				F137D2961DFE707B006D8752 /* HeartAnimationVC.swift in Sources */,
+				F14E76DD1E9B69BC00E19BCA /* OptionalViewController.swift in Sources */,
 				F105AB881DF93B8B00FFFC42 /* ImageAnimationVC.swift in Sources */,
 				F15B16B51D9DF8D50046142B /* SwiftJSONDemo.swift in Sources */,
 				F1FC2F381DD2F8640093ABF7 /* FrameworkDemo.swift in Sources */,

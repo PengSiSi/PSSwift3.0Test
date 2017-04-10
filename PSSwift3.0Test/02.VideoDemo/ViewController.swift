@@ -73,8 +73,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "61:实现键盘上添加视图",
                                "62:图片的生成和实现",
                                "63:构造过程",
-                               "64:自动引用计数"
-        
+                               "64:自动引用计数",
+                               "65:可选链"
                               ];
     let tableView = UITableView()
     
@@ -375,6 +375,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 63 {
             let automCountDemo = AutomCountViewController()
             self.navigationController?.pushViewController(automCountDemo, animated: true)
+        }
+        if indexPath.row == 64 {
+            let optionalDemo = OptionalViewController()
+            self.navigationController?.pushViewController(optionalDemo, animated: true)
         }
     }
 }
