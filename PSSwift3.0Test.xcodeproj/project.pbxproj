@@ -42,6 +42,7 @@
 		F126300A1DD3002B00723309 /* PSSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F12630131DD300FC00723309 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12630121DD300FC00723309 /* ImageProcessor.swift */; };
 		F13118F71E2DEF72006752F4 /* LocalizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13118F61E2DEF72006752F4 /* LocalizedViewController.swift */; };
+		F132A7B71E9DB14A00980C97 /* MD5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F132A7B61E9DB14A00980C97 /* MD5ViewController.swift */; };
 		F137D2461DFE701F006D8752 /* addplan_300x300_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F137D1FB1DFE701F006D8752 /* addplan_300x300_@1x.png */; };
 		F137D2471DFE701F006D8752 /* addplan_sel_300x300_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F137D1FC1DFE701F006D8752 /* addplan_sel_300x300_@1x.png */; };
 		F137D2481DFE701F006D8752 /* barbuttonicon_add_30x30_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F137D1FD1DFE701F006D8752 /* barbuttonicon_add_30x30_@1x.png */; };
@@ -342,6 +343,7 @@
 		F11BAA5E1DF0290A0053768D /* SearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		F12630121DD300FC00723309 /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 		F13118F61E2DEF72006752F4 /* LocalizedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedViewController.swift; sourceTree = "<group>"; };
+		F132A7B61E9DB14A00980C97 /* MD5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5ViewController.swift; sourceTree = "<group>"; };
 		F137D1FB1DFE701F006D8752 /* addplan_300x300_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addplan_300x300_@1x.png"; sourceTree = "<group>"; };
 		F137D1FC1DFE701F006D8752 /* addplan_sel_300x300_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addplan_sel_300x300_@1x.png"; sourceTree = "<group>"; };
 		F137D1FD1DFE701F006D8752 /* barbuttonicon_add_30x30_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_add_30x30_@1x.png"; sourceTree = "<group>"; };
@@ -743,6 +745,14 @@
 			path = "53.Swift3.0国际化语言";
 			sourceTree = "<group>";
 		};
+		F132A7B51E9DB14000980C97 /* 70.MD5加密 */ = {
+			isa = PBXGroup;
+			children = (
+				F132A7B61E9DB14A00980C97 /* MD5ViewController.swift */,
+			);
+			path = "70.MD5加密";
+			sourceTree = "<group>";
+		};
 		F137D1FA1DFE701F006D8752 /* car_images */ = {
 			isa = PBXGroup;
 			children = (
@@ -957,6 +967,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F132A7B51E9DB14000980C97 /* 70.MD5加密 */,
 				F14E76DB1E9B69B400E19BCA /* 69.可选链 */,
 				F14E76D81E9B5DAD00E19BCA /* 68.自动引用计数 */,
 				F14E76D51E9B536F00E19BCA /* 67.构造过程 */,
@@ -1808,6 +1819,7 @@
 				F1490B9C1E1B36FF001B2E16 /* CAShapeLayerDemo.swift in Sources */,
 				F10F18371E6817F500991B3F /* UserDefaultsDemo.swift in Sources */,
 				F198296C1D9A7542001C87FD /* DelegateDemo.swift in Sources */,
+				F132A7B71E9DB14A00980C97 /* MD5ViewController.swift in Sources */,
 				F1FF00271E28BAC300C0AC35 /* CounterLabelViewController.swift in Sources */,
 				F1FD10501DCD95F500A42042 /* TimeLineViewController.swift in Sources */,
 				F19273D31E247E1500C21443 /* FMDBViewController.swift in Sources */,

@@ -10,5 +10,6 @@
 #define PSSwiftBridge_h
 
 #import "SDPhotoBrowser.h"
+#import <CommonCrypto/CommonCrypto.h> // MD5加密用到
 
 #endif /* PSSwiftBridge_h */

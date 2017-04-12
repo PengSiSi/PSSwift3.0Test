@@ -74,7 +74,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "62:图片的生成和实现",
                                "63:构造过程",
                                "64:自动引用计数",
-                               "65:可选链"
+                               "65:可选链",
+                               "66:MD5加密"
                               ];
     let tableView = UITableView()
     
@@ -379,6 +380,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 64 {
             let optionalDemo = OptionalViewController()
             self.navigationController?.pushViewController(optionalDemo, animated: true)
+        }
+        if indexPath.row == 65 {
+            let md5Demo = MD5ViewController()
+            self.navigationController?.pushViewController(md5Demo, animated: true)
         }
     }
 }

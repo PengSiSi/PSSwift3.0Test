@@ -10,6 +10,13 @@ import UIKit
 
 class OptionalViewController: BaseViewController {
 
+    // 访问控制
+    private var name: String?
+    public var name1: String?
+    internal var name2: String?
+    fileprivate var name3: String?
+    open var name4: String?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,6 +32,11 @@ class OptionalViewController: BaseViewController {
         }
         // 输出: Unable to retrieve the number of rooms.
     }
+    
+    func test() {
+        
+        print(name ?? "88") // name,name1,2,3,4
+    }
 }
 
 class Personn {
@@ -33,4 +45,11 @@ class Personn {
 
 class Residence {
     var numberOfRoos = 1
+}
+
+extension OptionalViewController {
+    
+    func test1() {
+        // 可以访问name1,2,3,4
+    }
 }
