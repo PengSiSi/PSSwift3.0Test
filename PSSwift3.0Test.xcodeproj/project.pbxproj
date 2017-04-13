@@ -120,6 +120,7 @@
 		F137D2901DFE701F006D8752 /* 读书1_300x300_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F137D2451DFE701F006D8752 /* 读书1_300x300_@1x.png */; };
 		F137D2961DFE707B006D8752 /* HeartAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F137D2951DFE707B006D8752 /* HeartAnimationVC.swift */; };
 		F13E90A71E933C3800778C81 /* AttrTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E90A61E933C3800778C81 /* AttrTextView.swift */; };
+		F13F3B771E9F03E4009BA2A2 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13F3B761E9F03E4009BA2A2 /* CategoryViewController.swift */; };
 		F1490B9C1E1B36FF001B2E16 /* CAShapeLayerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1490B9B1E1B36FF001B2E16 /* CAShapeLayerDemo.swift */; };
 		F1490BE71E1BA20F001B2E16 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1490BE61E1BA20F001B2E16 /* TestViewController.swift */; };
 		F1492DAC1E08BFF9009137DA /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */; };
@@ -421,6 +422,7 @@
 		F137D2451DFE701F006D8752 /* 读书1_300x300_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "读书1_300x300_@1x.png"; sourceTree = "<group>"; };
 		F137D2951DFE707B006D8752 /* HeartAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartAnimationVC.swift; sourceTree = "<group>"; };
 		F13E90A61E933C3800778C81 /* AttrTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttrTextView.swift; sourceTree = "<group>"; };
+		F13F3B761E9F03E4009BA2A2 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		F1490B9B1E1B36FF001B2E16 /* CAShapeLayerDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAShapeLayerDemo.swift; sourceTree = "<group>"; };
 		F1490BE61E1BA20F001B2E16 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F1492DAB1E08BFF9009137DA /* ProtocolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
@@ -844,6 +846,14 @@
 			path = "../40.仿京东心跳动画";
 			sourceTree = "<group>";
 		};
+		F13F3B751E9F03C1009BA2A2 /* 71.Category汇总 */ = {
+			isa = PBXGroup;
+			children = (
+				F13F3B761E9F03E4009BA2A2 /* CategoryViewController.swift */,
+			);
+			path = "71.Category汇总";
+			sourceTree = "<group>";
+		};
 		F1490B9A1E1B36F3001B2E16 /* 46. CAShapeLayer学习 */ = {
 			isa = PBXGroup;
 			children = (
@@ -967,6 +977,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F13F3B751E9F03C1009BA2A2 /* 71.Category汇总 */,
 				F132A7B51E9DB14000980C97 /* 70.MD5加密 */,
 				F14E76DB1E9B69B400E19BCA /* 69.可选链 */,
 				F14E76D81E9B5DAD00E19BCA /* 68.自动引用计数 */,
@@ -1872,6 +1883,7 @@
 				F1D423861D9B78B3005AA7CD /* UIWebViewDemo.swift in Sources */,
 				F1492DAC1E08BFF9009137DA /* ProtocolViewController.swift in Sources */,
 				F10C09991E554F4D00F8E3CF /* CMPendometer.swift in Sources */,
+				F13F3B771E9F03E4009BA2A2 /* CategoryViewController.swift in Sources */,
 				F112678E1DC97EB200955BCC /* WebViewController.swift in Sources */,
 				F10A5A7C1D9B9FB300EB2021 /* UIStepperDemo.swift in Sources */,
 				F1DE33111D9DED7900C14754 /* SDWaitingView.m in Sources */,

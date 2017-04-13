@@ -75,7 +75,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "63:构造过程",
                                "64:自动引用计数",
                                "65:可选链",
-                               "66:MD5加密"
+                               "66:MD5加密",
+                               "67:Category汇总"
                               ];
     let tableView = UITableView()
     
@@ -384,6 +385,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 65 {
             let md5Demo = MD5ViewController()
             self.navigationController?.pushViewController(md5Demo, animated: true)
+        }
+        if indexPath.row == 66 {
+            let categoryDemo = CategoryViewController()
+            self.navigationController?.pushViewController(categoryDemo, animated: true)
         }
     }
 }
