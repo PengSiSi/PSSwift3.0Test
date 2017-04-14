@@ -13,6 +13,9 @@ class StringDemo: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // 去除字符串的收尾特定字符
+        trimCharacter()
+        
         // 字符串字面量
         let s3 = "sisiisisi"
         
@@ -58,7 +61,7 @@ class StringDemo: BaseViewController {
         // 字符串索引
         let greeting = "Guten Tag!"
         _ = greeting[greeting.startIndex];
-        _ = greeting[greeting.endIndex];
+//        _ = greeting[greeting.endIndex];
         _ = greeting[greeting.index(after: greeting.startIndex)]
         _ = greeting[greeting.index(before: greeting.endIndex)]
         _ = greeting[greeting.index(greeting.startIndex, offsetBy: 2)]
@@ -105,5 +108,41 @@ class StringDemo: BaseViewController {
             }
         }
         print("There are \(act1SceneCount) scenes in Act 1")
+    }
+}
+
+extension StringDemo {
+    
+    func trimCharacter() {
+        
+        // 去除字符串前后的空白
+        /*
+         CharacterSet 里各个枚举类型的含义如下：
+         controlCharacters：控制符
+         whitespaces：空格
+         newlines：换行符
+         whitespacesAndNewlines：空格换行
+         decimalDigits：小数
+         letters：文字
+         lowercaseLetters：小写字母
+         uppercaseLetters：大写字母
+         nonBaseCharacters：非基础
+         alphanumerics：字母数字
+         decomposables：可分解
+         illegalCharacters：非法
+         punctuationCharacters：标点
+         capitalizedLetters：大写
+         symbols：符号
+         */
+        // 1.删除前后空格
+        let str1 = "  https://github.com/PengSiSi?tab=repositories  "
+        let str2 = str1.trimmingCharacters(in: .whitespaces)
+        print("str1 = \(str1) str2 = \(str2)")
+        
+        // 2.删除指定字符<>
+        let character = CharacterSet(charactersIn: "<>")
+        let str3 = "<<https://github.com/PengSiSi?tab=repositories>>"
+        let str4 = str3.trimmingCharacters(in: character)
+        print("str3 = \(str3) str4 = \(str4)")
     }
 }
