@@ -38,6 +38,11 @@
 		F112678E1DC97EB200955BCC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F112678D1DC97EB200955BCC /* WebViewController.swift */; };
 		F11BAA5B1DEFF2B90053768D /* self.view.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BAA5A1DEFF2B90053768D /* self.view.swift */; };
 		F11BAA5F1DF0290A0053768D /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BAA5E1DF0290A0053768D /* SearchBarViewController.swift */; };
+		F123B4821EAF269B0036BF98 /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123B4811EAF269B0036BF98 /* CycleView.swift */; };
+		F123B4841EAF26A30036BF98 /* CycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F123B4831EAF26A30036BF98 /* CycleView.xib */; };
+		F123B48C1EAF35EE0036BF98 /* PSCycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123B48B1EAF35EE0036BF98 /* PSCycleViewController.swift */; };
+		F123B4931EAF38740036BF98 /* CycleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123B4911EAF38740036BF98 /* CycleCollectionViewCell.swift */; };
+		F123B4941EAF38740036BF98 /* CycleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F123B4921EAF38740036BF98 /* CycleCollectionViewCell.xib */; };
 		F12630091DD3002B00723309 /* PSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; };
 		F126300A1DD3002B00723309 /* PSSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC2F631DD300130093ABF7 /* PSSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F12630131DD300FC00723309 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12630121DD300FC00723309 /* ImageProcessor.swift */; };
@@ -181,6 +186,7 @@
 		F198296E1D9A75C6001C87FD /* DelegateDemo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198296D1D9A75C6001C87FD /* DelegateDemo1.swift */; };
 		F19829711D9A7B78001C87FD /* SingleInstanceDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19829701D9A7B78001C87FD /* SingleInstanceDemo.swift */; };
 		F19829731D9A7BCE001C87FD /* APPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19829721D9A7BCE001C87FD /* APPManager.swift */; };
+		F1AD83951EB61E5E000B19D0 /* TableViewEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD83941EB61E5E000B19D0 /* TableViewEditViewController.swift */; };
 		F1CAE7801E9284F7003C1ABF /* AttributeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CAE77F1E9284F7003C1ABF /* AttributeVC.swift */; };
 		F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22A1DA89CC100309240 /* ModifierViewController.swift */; };
 		F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */; };
@@ -342,6 +348,11 @@
 		F112678D1DC97EB200955BCC /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F11BAA5A1DEFF2B90053768D /* self.view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = self.view.swift; sourceTree = "<group>"; };
 		F11BAA5E1DF0290A0053768D /* SearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		F123B4811EAF269B0036BF98 /* CycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
+		F123B4831EAF26A30036BF98 /* CycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CycleView.xib; sourceTree = "<group>"; };
+		F123B48B1EAF35EE0036BF98 /* PSCycleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSCycleViewController.swift; sourceTree = "<group>"; };
+		F123B4911EAF38740036BF98 /* CycleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleCollectionViewCell.swift; sourceTree = "<group>"; };
+		F123B4921EAF38740036BF98 /* CycleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CycleCollectionViewCell.xib; sourceTree = "<group>"; };
 		F12630121DD300FC00723309 /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 		F13118F61E2DEF72006752F4 /* LocalizedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedViewController.swift; sourceTree = "<group>"; };
 		F132A7B61E9DB14A00980C97 /* MD5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5ViewController.swift; sourceTree = "<group>"; };
@@ -491,6 +502,7 @@
 		F198296D1D9A75C6001C87FD /* DelegateDemo1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateDemo1.swift; sourceTree = "<group>"; };
 		F19829701D9A7B78001C87FD /* SingleInstanceDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleInstanceDemo.swift; sourceTree = "<group>"; };
 		F19829721D9A7BCE001C87FD /* APPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPManager.swift; sourceTree = "<group>"; };
+		F1AD83941EB61E5E000B19D0 /* TableViewEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewEditViewController.swift; sourceTree = "<group>"; };
 		F1CAE77F1E9284F7003C1ABF /* AttributeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeVC.swift; sourceTree = "<group>"; };
 		F1CBE22A1DA89CC100309240 /* ModifierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierViewController.swift; sourceTree = "<group>"; };
 		F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPointViewController.swift; sourceTree = "<group>"; };
@@ -738,6 +750,26 @@
 			path = 37.UISearchBar;
 			sourceTree = "<group>";
 		};
+		F123B47C1EAF00E70036BF98 /* 72.封装CycleView */ = {
+			isa = PBXGroup;
+			children = (
+				F123B47D1EAF00E70036BF98 /* CycleView */,
+			);
+			path = "72.封装CycleView";
+			sourceTree = "<group>";
+		};
+		F123B47D1EAF00E70036BF98 /* CycleView */ = {
+			isa = PBXGroup;
+			children = (
+				F123B4811EAF269B0036BF98 /* CycleView.swift */,
+				F123B4831EAF26A30036BF98 /* CycleView.xib */,
+				F123B48B1EAF35EE0036BF98 /* PSCycleViewController.swift */,
+				F123B4911EAF38740036BF98 /* CycleCollectionViewCell.swift */,
+				F123B4921EAF38740036BF98 /* CycleCollectionViewCell.xib */,
+			);
+			path = CycleView;
+			sourceTree = "<group>";
+		};
 		F13118F51E2DEF38006752F4 /* 53.Swift3.0国际化语言 */ = {
 			isa = PBXGroup;
 			children = (
@@ -977,6 +1009,8 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1AD83911EB61E1C000B19D0 /* 73.去除tableView在编辑模式下的自动缩进（单元格头部不留空白） */,
+				F123B47C1EAF00E70036BF98 /* 72.封装CycleView */,
 				F13F3B751E9F03C1009BA2A2 /* 71.Category汇总 */,
 				F132A7B51E9DB14000980C97 /* 70.MD5加密 */,
 				F14E76DB1E9B69B400E19BCA /* 69.可选链 */,
@@ -1274,6 +1308,14 @@
 				F19829721D9A7BCE001C87FD /* APPManager.swift */,
 			);
 			path = "12.单例的使用";
+			sourceTree = "<group>";
+		};
+		F1AD83911EB61E1C000B19D0 /* 73.去除tableView在编辑模式下的自动缩进（单元格头部不留空白） */ = {
+			isa = PBXGroup;
+			children = (
+				F1AD83941EB61E5E000B19D0 /* TableViewEditViewController.swift */,
+			);
+			path = "73.去除tableView在编辑模式下的自动缩进（单元格头部不留空白）";
 			sourceTree = "<group>";
 		};
 		F1CAE77E1E9284D6003C1ABF /* 63.可点击 @、# 标记文本实现 */ = {
@@ -1661,6 +1703,7 @@
 				F137D2881DFE701F006D8752 /* todo_norm_300x300_@1x.png in Resources */,
 				F137D2651DFE701F006D8752 /* ReceiverAppNodeBkg_66x54_@2x.png in Resources */,
 				F137D2471DFE701F006D8752 /* addplan_sel_300x300_@1x.png in Resources */,
+				F123B4841EAF26A30036BF98 /* CycleView.xib in Resources */,
 				F15B16B71D9DF9600046142B /* SwiftyJSONTests.json in Resources */,
 				F137D2551DFE701F006D8752 /* done_norm_300x300_@1x.png in Resources */,
 				F137D2741DFE701F006D8752 /* SenderAppNodeBkg_66x54_@2x.png in Resources */,
@@ -1692,6 +1735,7 @@
 				F137D28C1DFE701F006D8752 /* 分享_300x300_@1x.png in Resources */,
 				F137D2871DFE701F006D8752 /* shop_sd_300x300_@1x.png in Resources */,
 				F137D28F1DFE701F006D8752 /* 计划_300x300_@1x.png in Resources */,
+				F123B4941EAF38740036BF98 /* CycleCollectionViewCell.xib in Resources */,
 				F137D2791DFE701F006D8752 /* SenderImageNodeBorder_57x52_@3x.png in Resources */,
 				F137D2561DFE701F006D8752 /* gobook_norm_300x300_@1x.png in Resources */,
 				F137D26C1DFE701F006D8752 /* save_norm_300x300_@1x.png in Resources */,
@@ -1818,10 +1862,12 @@
 				F13118F71E2DEF72006752F4 /* LocalizedViewController.swift in Sources */,
 				F1D9DD4B1E051D610093A3A5 /* UIColor+Extension.swift in Sources */,
 				F10A5A7E1D9B9FBC00EB2021 /* BaseViewController.swift in Sources */,
+				F123B4821EAF269B0036BF98 /* CycleView.swift in Sources */,
 				F10ADD2D1E8F707B00E409BC /* StringPositionVC.swift in Sources */,
 				F12630131DD300FC00723309 /* ImageProcessor.swift in Sources */,
 				F1E4453A1E6903660068ACA5 /* JumpSettingVC.swift in Sources */,
 				F19829161D9A3B0C001C87FD /* UIBlurEffectDemo.swift in Sources */,
+				F123B48C1EAF35EE0036BF98 /* PSCycleViewController.swift in Sources */,
 				F1FF00251E28BA9D00C0AC35 /* CounterLabel.swift in Sources */,
 				F10C979E1E026D51004EEBA0 /* PSPickView.swift in Sources */,
 				F1720B5B1D98FD7D00C62F50 /* TbaleViewRowHeight.swift in Sources */,
@@ -1871,6 +1917,7 @@
 				F1FC44251DF10A2900C9D805 /* DateViewController.swift in Sources */,
 				F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */,
 				F16CE7D31D97DABE00443625 /* ViewController.swift in Sources */,
+				F1AD83951EB61E5E000B19D0 /* TableViewEditViewController.swift in Sources */,
 				F1DE33101D9DED7900C14754 /* SDPhotoBrowser.m in Sources */,
 				F16CE7D11D97DABE00443625 /* VideoModel.swift in Sources */,
 				F198290F1D9A0898001C87FD /* CustomLayoutVc.swift in Sources */,
@@ -1908,6 +1955,7 @@
 				F1D423831D9B634D005AA7CD /* GCDDemo.swift in Sources */,
 				F16CE7B31D97ADF900443625 /* Tools.swift in Sources */,
 				F1FB39641E010F9E009AD8EB /* ViewController1.swift in Sources */,
+				F123B4931EAF38740036BF98 /* CycleCollectionViewCell.swift in Sources */,
 				F16CE7D61D97DABE00443625 /* ScrollViewDemo2.swift in Sources */,
 				F10C979C1E026D00004EEBA0 /* PickViewController.swift in Sources */,
 				F1720B5E1D98FE1700C62F50 /* RowHeightCell.swift in Sources */,

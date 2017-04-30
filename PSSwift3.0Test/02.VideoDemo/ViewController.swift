@@ -76,7 +76,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "64:自动引用计数",
                                "65:可选链",
                                "66:MD5加密",
-                               "67:Category汇总"
+                               "67:Category汇总",
+                               "68:轮播图封装",
+                               "69:去除tableView在编辑模式下的自动缩进（单元格头部不留空白)"
                               ];
     let tableView = UITableView()
     
@@ -389,6 +391,14 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 66 {
             let categoryDemo = CategoryViewController()
             self.navigationController?.pushViewController(categoryDemo, animated: true)
+        }
+        if indexPath.row == 67 {
+            let cycleDemo = PSCycleViewController()
+            self.navigationController?.pushViewController(cycleDemo, animated: true)
+        }
+        if indexPath.row == 68 {
+            let tableViewEditDemo = TableViewEditViewController()
+            self.navigationController?.pushViewController(tableViewEditDemo, animated: true)
         }
     }
 }
