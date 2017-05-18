@@ -37,7 +37,7 @@ class TableViewCell: UITableViewCell {
         
         // 配置cell
         titleLabel?.text = delegate.title
-        imageView?.image = UIImage(named: delegate.imageName)
+        picImgView?.image = UIImage(named: delegate.imageName)
     }
 }
 
