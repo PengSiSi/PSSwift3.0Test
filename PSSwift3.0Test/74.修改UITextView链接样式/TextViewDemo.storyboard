@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Text View Demo-->
+        <scene sceneID="Eo0-2n-VWO">
+            <objects>
+                <viewController storyboardIdentifier="TextViewDemo" id="SMb-To-DzH" customClass="TextViewDemo" customModule="PSSwift3_0Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rEq-vX-fIb"/>
+                        <viewControllerLayoutGuide type="bottom" id="kxo-a7-iIY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FS5-i8-bbU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WQt-ep-TFm">
+                                <rect key="frame" x="157" y="296" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="欢迎访问思思的Github地址:https://github.com/PengSiSi" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IMW-0p-gQV">
+                                <rect key="frame" x="41" y="146" width="293" height="193"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="193" id="vMS-tG-ntw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IMW-0p-gQV" firstAttribute="top" secondItem="rEq-vX-fIb" secondAttribute="bottom" constant="126" id="VCM-UN-eyY"/>
+                            <constraint firstItem="IMW-0p-gQV" firstAttribute="leading" secondItem="FS5-i8-bbU" secondAttribute="leadingMargin" constant="25" id="cwK-WS-eUk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IMW-0p-gQV" secondAttribute="trailing" constant="25" id="hbO-zX-lgN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="IMW-0p-gQV" id="PUT-2f-Asz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6eU-Jx-Lrg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-287.19999999999999" y="-199.25037481259372"/>
+        </scene>
+    </scenes>
+</document>

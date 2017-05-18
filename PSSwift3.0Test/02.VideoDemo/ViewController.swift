@@ -78,7 +78,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "66:MD5加密",
                                "67:Category汇总",
                                "68:轮播图封装",
-                               "69:去除tableView在编辑模式下的自动缩进（单元格头部不留空白)"
+                               "69:去除tableView在编辑模式下的自动缩进（单元格头部不留空白)",
+                               "70:修改TextView的链接样式",
+                               "71:Swift3.0.1学习总结",
+                               "72:面向协议的MVVM架构"
                               ];
     let tableView = UITableView()
     
@@ -399,6 +402,18 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         if indexPath.row == 68 {
             let tableViewEditDemo = TableViewEditViewController()
             self.navigationController?.pushViewController(tableViewEditDemo, animated: true)
+        }
+        if indexPath.row == 69 {
+            let textViewDemo = UIStoryboard(name: "TextViewDemo", bundle: nil).instantiateViewController(withIdentifier: "TextViewDemo")
+            self.navigationController?.pushViewController(textViewDemo, animated: true)
+        }
+        if indexPath.row == 70 {
+            let swiftDemoVc = SwiftSummaryVC()
+            self.navigationController?.pushViewController(swiftDemoVc, animated: true)
+        }
+        if indexPath.row == 71 {
+            let mvvmDemoVc = MVVMViewController()
+            self.navigationController?.pushViewController(mvvmDemoVc, animated: true)
         }
     }
 }
