@@ -4,7 +4,8 @@
 //
 //  Created by 思 彭 on 2017/5/18.
 //  Copyright © 2017年 思 彭. All rights reserved.
-//
+
+// 参考链接: https://news.realm.io/cn/news/doios-natasha-murashev-protocol-oriented-mvvm/
 
 import UIKit
 
@@ -39,7 +40,8 @@ extension MVVMViewController: UITableViewDelegate, UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
         cell.selectionStyle = .none
-        cell.configure(withDelegate: ModelViewModel())
+        let model = AccountModel()
+        cell.configure(withDelegate: ModelViewModel(model: model))
         return cell
     }
 }

@@ -192,7 +192,9 @@
 		F1A5057F1ECD8AB1007E6708 /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A5057E1ECD8AB1007E6708 /* MVVMViewController.swift */; };
 		F1A505811ECD8B3C007E6708 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A505801ECD8B3C007E6708 /* TableViewCell.swift */; };
 		F1A505831ECD9343007E6708 /* ModelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A505821ECD9343007E6708 /* ModelViewModel.swift */; };
+		F1A505851ECD9924007E6708 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A505841ECD9924007E6708 /* AccountModel.swift */; };
 		F1AD83951EB61E5E000B19D0 /* TableViewEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD83941EB61E5E000B19D0 /* TableViewEditViewController.swift */; };
+		F1B8B59A1ECEBEAC00DD778C /* TypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8B5991ECEBEAC00DD778C /* TypeViewController.swift */; };
 		F1CAE7801E9284F7003C1ABF /* AttributeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CAE77F1E9284F7003C1ABF /* AttributeVC.swift */; };
 		F1CBE22B1DA89CC100309240 /* ModifierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22A1DA89CC100309240 /* ModifierViewController.swift */; };
 		F1CBE22E1DA8A18100309240 /* NewPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */; };
@@ -514,7 +516,9 @@
 		F1A5057E1ECD8AB1007E6708 /* MVVMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
 		F1A505801ECD8B3C007E6708 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		F1A505821ECD9343007E6708 /* ModelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelViewModel.swift; sourceTree = "<group>"; };
+		F1A505841ECD9924007E6708 /* AccountModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 		F1AD83941EB61E5E000B19D0 /* TableViewEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewEditViewController.swift; sourceTree = "<group>"; };
+		F1B8B5991ECEBEAC00DD778C /* TypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeViewController.swift; sourceTree = "<group>"; };
 		F1CAE77F1E9284F7003C1ABF /* AttributeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeVC.swift; sourceTree = "<group>"; };
 		F1CBE22A1DA89CC100309240 /* ModifierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierViewController.swift; sourceTree = "<group>"; };
 		F1CBE22D1DA8A18100309240 /* NewPointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPointViewController.swift; sourceTree = "<group>"; };
@@ -1038,6 +1042,7 @@
 		F16CE77B1D97815700443625 /* PSSwift3.0Test */ = {
 			isa = PBXGroup;
 			children = (
+				F1B8B5981ECEBE8E00DD778C /* 77.Swift3.0的访问控制类型 */,
 				F1A5057D1ECD8AA7007E6708 /* 76.面向协议的MVVM结构 */,
 				F10E2A231ECC3A1500125AF7 /* 75.Swift3.0.1再次学习 */,
 				F1119B5B1EC0378A00602150 /* 74.修改UITextView链接样式 */,
@@ -1348,6 +1353,7 @@
 				F1A5057E1ECD8AB1007E6708 /* MVVMViewController.swift */,
 				F1A505801ECD8B3C007E6708 /* TableViewCell.swift */,
 				F1A505821ECD9343007E6708 /* ModelViewModel.swift */,
+				F1A505841ECD9924007E6708 /* AccountModel.swift */,
 			);
 			path = "76.面向协议的MVVM结构";
 			sourceTree = "<group>";
@@ -1358,6 +1364,14 @@
 				F1AD83941EB61E5E000B19D0 /* TableViewEditViewController.swift */,
 			);
 			path = "73.去除tableView在编辑模式下的自动缩进（单元格头部不留空白）";
+			sourceTree = "<group>";
+		};
+		F1B8B5981ECEBE8E00DD778C /* 77.Swift3.0的访问控制类型 */ = {
+			isa = PBXGroup;
+			children = (
+				F1B8B5991ECEBEAC00DD778C /* TypeViewController.swift */,
+			);
+			path = "77.Swift3.0的访问控制类型";
 			sourceTree = "<group>";
 		};
 		F1CAE77E1E9284D6003C1ABF /* 63.可点击 @、# 标记文本实现 */ = {
@@ -1918,6 +1932,7 @@
 				F14973681E0373CE00549BFD /* PrintLogViewController.swift in Sources */,
 				F14E76D71E9B53A100E19BCA /* ConstructorVC.swift in Sources */,
 				F1490B9C1E1B36FF001B2E16 /* CAShapeLayerDemo.swift in Sources */,
+				F1B8B59A1ECEBEAC00DD778C /* TypeViewController.swift in Sources */,
 				F10F18371E6817F500991B3F /* UserDefaultsDemo.swift in Sources */,
 				F198296C1D9A7542001C87FD /* DelegateDemo.swift in Sources */,
 				F1A505831ECD9343007E6708 /* ModelViewModel.swift in Sources */,
@@ -2007,6 +2022,7 @@
 				F16CE7D61D97DABE00443625 /* ScrollViewDemo2.swift in Sources */,
 				F10C979C1E026D00004EEBA0 /* PickViewController.swift in Sources */,
 				F1720B5E1D98FE1700C62F50 /* RowHeightCell.swift in Sources */,
+				F1A505851ECD9924007E6708 /* AccountModel.swift in Sources */,
 				F11BAA5F1DF0290A0053768D /* SearchBarViewController.swift in Sources */,
 				F10D95F41DDE9CC400DE6218 /* TwoLineView.swift in Sources */,
 				F19829711D9A7B78001C87FD /* SingleInstanceDemo.swift in Sources */,

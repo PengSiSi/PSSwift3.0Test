@@ -81,7 +81,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
                                "69:去除tableView在编辑模式下的自动缩进（单元格头部不留空白)",
                                "70:修改TextView的链接样式",
                                "71:Swift3.0.1学习总结",
-                               "72:面向协议的MVVM架构"
+                               "72:面向协议的MVVM架构",
+                               "73:Swift3.0的访问控制类型"
                               ];
     let tableView = UITableView()
     
@@ -413,7 +414,19 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         }
         if indexPath.row == 71 {
             let mvvmDemoVc = MVVMViewController()
-            self.navigationController?.pushViewController(mvvmDemoVc, animated: true)
+           self.navigationController?.pushViewController(mvvmDemoVc, animated: true)
+        }
+        if indexPath.row == 72 {
+            let typeDemoVc = TypeViewController()
+            let classPerson = ClassPerson()
+            classPerson.walk()
+            classPerson.work()
+            classPerson.eat()
+            
+            let a = A()
+//            a.age
+            var height = a.height
+             self.navigationController?.pushViewController(typeDemoVc, animated: true)
         }
     }
 }

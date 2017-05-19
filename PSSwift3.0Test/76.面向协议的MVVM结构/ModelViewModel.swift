@@ -9,7 +9,13 @@
 import UIKit
 
 class ModelViewModel: NSObject, TableViewCellProtocol {
-
+    
     var title = "siis"
     var imageName = "img2.jpg"
+    
+    init(model: AccountModel) {
+        
+        let title = "sisi" + "棒棒哒"
+        self.title = title
+    }
 }

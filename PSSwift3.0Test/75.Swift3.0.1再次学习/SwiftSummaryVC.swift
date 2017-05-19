@@ -68,6 +68,9 @@ class SwiftSummaryVC: BaseViewController {
         let ace = Rank.Ace
         let aceRawVValue = ace.rawValue
         
+        // 返回某个实例在运行时的状态
+        type(of: ace).Ace
+        
         // 定义类实例
         var a = simpleClass()
         a.adjust()  // A very examplehaha
@@ -128,6 +131,22 @@ class SwiftSummaryVC: BaseViewController {
         sortExample { 
             
         }
+        
+        // 可选类型
+        var name: Int?
+        var name1: Optional<Int>
+        
+        // 数组
+        var array: [String] = ["a", "b", "c"]
+        var array1: Array<String> = ["a", "b", "c"]
+        
+        // 字典
+        var dict: [String: String] = ["1": "a",
+                                     "2": "b",
+                                     "3": "c"]
+        var dict1: Dictionary<String, String> = ["1": "a",
+                                                "2": "b",
+                                                "3": "c"]
     }
     
     // 2.函数参数带有多个值
